@@ -28,7 +28,7 @@ const router = createRouter({
       path: '/preguntas',
       name: 'spaThree',
       component: () => import('../views/SpaThreeView.vue'),
-    }
+    },
   ],
 })
 
