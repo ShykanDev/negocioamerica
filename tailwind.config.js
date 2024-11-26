@@ -12,6 +12,7 @@ export default {
         'poppins': ['Poppins', 'sans-serif'],
         'josefin-sans': ['Josefin Sans', 'sans-serif'],
         'parkinsans': ['Parkinsans', 'sans-serif'],
+        'jost': ['Jost', 'sans-serif'],
       },
   },
   },

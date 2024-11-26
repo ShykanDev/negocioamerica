@@ -29,7 +29,20 @@ const router = createRouter({
       name: 'spaThree',
       component: () => import('../views/SpaThreeView.vue'),
     },
+    {
+      path: '/mision',
+      name: 'mision',
+      component: () => import('../views/Home/MissionHomeView.vue'),
+    },
+    {
+      path: '/servicios-supervision',
+      name: 'supervision',
+      component: () => import('../views/Home/SupervisionProccessView.vue'),
+    },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  }
 })
 
 export default router

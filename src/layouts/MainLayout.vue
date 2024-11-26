@@ -1,48 +1,51 @@
 <template>
-  <div class="">
-    <header>
-      <section class="w-full bg-white">
-        <div class="flex justify-center w-full py-2 space-x-4 text-lg bg-white font-josefin-sans">
-          <RouterLink
-            :class="{ 'border-b-black border-b-2 ': route.name === 'home' }"
-            :to="{ name: 'home' }"
-            >Inicio</RouterLink
-          >
-          <RouterLink
-            :class="{ 'border-b-black border-b-2': route.name === 'spaOne' }"
-            :to="{ name: 'spaOne' }"
-            >Beneficios</RouterLink
-          >
-          <RouterLink
-            :class="{ 'border-b-black border-b-2': route.name === 'spaTwo' }"
-            :to="{ name: 'spaTwo' }"
-            >Ingredientes</RouterLink
-          >
-          <RouterLink
-            :class="{ 'border-b-black border-b-2': route.name === 'spaThree' }"
-            :to="{ name: 'spaThree' }"
-            >Preguntas</RouterLink
-          >
-          <RouterLink
-            :class="{ 'border-b-black border-b-2': route.name === 'non' }"
-            :to="{ name: 'home' }"
-            >Prasadam</RouterLink
-          >
+  <div class="overflow-hidden">
+    <header class="fixed top-0 z-50 w-full">
+  <section class="w-full h-full bg-white shadow">
+    <!-- Navigation links -->
+    <article class="flex items-center justify-center w-full h-full px-10 py-5 space-x-20 bg-white">
+      <!-- Título con fondo rojo -->
+      <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
+      
+      <div class="flex items-center h-full space-x-6 text-xl font-medium">
+        <!-- Loop through navigation items -->
+        <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
+          
+          <!-- Contenedor del enlace y submenú -->
+          <div class="relative w-full h-full group">
+            <!-- Reemplazado RouterLink por un <h3> -->
+            <h3
+              :class="{ 'border-b-white border-b-2 h-full': route.name === item.name }"
+              class="flex items-center w-full h-full px-4 py-2 cursor-pointer text-sky-950 hover:border-b-black hover:border-b-2"
+            >
+              {{ item.title }}
+            </h3>
+
+            <!-- Submenu for each item -->
+            <div
+              class="absolute left-0 hidden w-48 p-3 mt-0 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:block group-hover:opacity-100 top-full"
+            >
+              <div v-for="(subItem, subIndex) in item.subLinks" :key="subIndex">
+                <RouterLink
+                  :to="subItem.route"
+                  class="block px-4 py-2 text-sm hover:bg-gray-100"
+                >
+                  {{ subItem.title }}
+                </RouterLink>
+              </div>
+            </div>
+          </div>
         </div>
-        <div
-          class="flex items-center justify-around py-1 text-xl text-white font-poppins bg-slate-700"
-        >
-          <img class="w-12" src="../assets/ssl-certificate.png" alt="" />
-          <p class="font-parkinsans">paginaprasadam.com</p>
-          <img class="w-12" src="https://medicinaparaansiedad.com/img/logo.png" alt="" />
-        </div>
-      </section>
-    </header>
-    <main>
+      </div>
+    </article>
+  </section>
+</header>
+
+    <main class="min-h-screen mt-20">
       <slot name="main"> </slot>
     </main>
     <footer
-      class="relative flex flex-col items-center w-full p-4 text-white bg-sky-800 bg-opacity-85 font-poppins"
+      class="relative flex flex-col items-center w-full p-4 text-white bg-sky-950 font-poppins"
     >
       <!-- Título de la sección -->
       <h2 class="mb-4 text-3xl font-bold text-center lg:text-5xl">Contacto</h2>
@@ -126,6 +129,60 @@
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
+const navItems = [
+  {
+    title: 'Inicio',
+    name: 'home',
+    route: '', // Ruta esperada: '/home'
+    subLinks: [
+      { title: 'Visión General', route: '/' }, // Ruta esperada: '/home/vision-general'
+      { title: 'Nuestra Misión', route: 'mision' }, // Ruta esperada: '/home/mision'
+      { title: 'Proceso de Supervisión', route: 'servicios-supervision' }, // Ruta esperada: '/home/proceso-supervision'
+    ],
+  },
+  {
+    title: 'Nosotros',
+    name: 'spaOne',
+    route: '', // Ruta esperada: '/nosotros'
+    subLinks: [
+      { title: 'Más de 30 Años de Experiencia', route: '' }, // Ruta esperada: '/nosotros/experiencia'
+      { title: 'Equipo de Supervisión', route: '' }, // Ruta esperada: '/nosotros/equipo-supervision'
+      { title: 'Relaciones Internacionales', route: '' }, // Ruta esperada: '/nosotros/relaciones-internacionales'
+    ],
+  },
+  {
+    title: 'Servicios',
+    name: 'spaTwo',
+    route: '', // Ruta esperada: '/servicios'
+    subLinks: [
+      { title: 'Supervisión y Verificación de Proveedores', route: '' }, // Ruta esperada: '/servicios/supervision-verificacion'
+      { title: 'Auditorías de Calidad y Cumplimiento', route: '' }, // Ruta esperada: '/servicios/auditorias-calidad'
+      { title: 'Documentación y Reportes Transparentes', route: '' }, // Ruta esperada: '/servicios/documentacion-reportes'
+    ],
+  },
+  {
+    title: 'Beneficios',
+    name: 'spaThree',
+    route: '', 
+    subLinks: [
+      { title: 'Confianza y Seguridad', route: '' }, // Ruta esperada: '/beneficios/confianza-seguridad'
+      { title: 'Mitigación de Riesgos en la Cadena de Suministro', route: '' }, // Ruta esperada: '/beneficios/mitigacion-riesgos'
+      { title: 'Control de Calidad en Tiempo Real', route: '' }, // Ruta esperada: '/beneficios/control-calidad'
+    ],
+  },
+  {
+    title: 'Información',
+    name: 'informacion',
+    route: '', 
+    subLinks: [
+      { title: 'Historia de la Empresa', route: '' }, // Ruta esperada: '/informacion/historia'
+      { title: 'Nuestros Valores', route: '' }, // Ruta esperada: '/informacion/valores'
+      { title: 'Testimonios de Clientes Satisfechos', route: '' }, // Ruta esperada: '/informacion/testimonios'
+    ],
+  }
+]
+
 </script>
+
 
 <style scoped></style>
