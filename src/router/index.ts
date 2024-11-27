@@ -58,6 +58,16 @@ const router = createRouter({
       path:'/commments/users',
       name:'commments',
       component: () => import('../views/CommentsView.vue'),
+    },
+    {
+      path: '/history/us',
+      name: 'history',  
+      component: () => import('../views/History/HistoryOne.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/History/ContactView.vue'),
     }
   ],
   scrollBehavior() {

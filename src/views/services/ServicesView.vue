@@ -14,106 +14,142 @@
         </div>
     </div>
   <section class="container px-4 py-8 mx-auto">
-   <section class="mb-12">
-    <h2 class="mb-4 text-2xl font-bold text-sky-950">
-     Supervisión en Tiempo Real
-    </h2>
-    <div class="flex flex-wrap -mx-4">
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Supervisor observando la producción en una fábrica" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/fe6qqhfmMNHhQoQEj5fQk9enELebMEwOt4U1knYZLqoZBvR9E.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Nuestro equipo está presente en cada etapa del proceso, desde la selección de proveedores hasta la entrega final.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Supervisor revisando documentos de proveedores" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/kdImZPRX2qoIIFiSxKe0oqCmKBJfwAm2Z71AN6FMevrc4NqnA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Supervisión constante para asegurar que se cumplan los estándares de calidad.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Equipo de supervisores en una reunión de planificación" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/jtJfbOEBhH1RRaKzXGCwUjhBOqkhvpSetqU9Wq897fxM4NqnA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Planificación y seguimiento detallado en cada fase del proceso.
-      </p>
-     </div>
+    <section class="mb-12">
+   <h2 class="mb-4 text-2xl font-bold text-sky-950">
+    Supervisión en Tiempo Real
+   </h2>
+   <div class="flex flex-wrap -mx-4">
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Supervisión en Fábrica
+     </h3>
+     <img alt="Supervisor observando la producción en una fábrica" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/9uobIGwMiHJzPxlUlRryAoF7QE9tnWpI0NHoEJe07mwNIp6JA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Nuestro equipo está presente en cada etapa del proceso, desde la selección de proveedores hasta la entrega final. Aseguramos que cada paso cumpla con los estándares de calidad establecidos, garantizando la satisfacción del cliente y la eficiencia en la producción.
+     </p>
     </div>
-   </section>
-   <section class="mb-12">
-    <h2 class="mb-4 text-2xl font-bold text-sky-950">
-     Verificación de Certificaciones
-    </h2>
-    <div class="flex flex-wrap -mx-4">
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Certificado de calidad enmarcado" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/bYqktKh7HeUf6EsnHI04Evfa8rdGk8vmo5yb8wuR4AOF4NqnA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Validamos las certificaciones de los proveedores para asegurar el cumplimiento de los estándares legales y regulatorios.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Auditor revisando documentos de certificación" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/j1nYs6rUKpoXF9jtec8pfr9lg33fj1qTikzR9eUwsZZMwbUPB.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Proceso riguroso de verificación para garantizar la autenticidad de las certificaciones.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Certificados de diferentes estándares internacionales" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/MayNVuYcWGqeVShv1xCvRtheYRffDODpxMKOw5ffe9sVIeG1TA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Aseguramos que los proveedores cumplan con los estándares internacionales.
-      </p>
-     </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Revisión de Documentos
+     </h3>
+     <img alt="Supervisor revisando documentos de proveedores" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/sEzENWqSRhI2ERcnNxXO0ufI2fdeUjqHJYzoGQe06Hk2BJVPB.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Supervisión constante para asegurar que se cumplan los estándares de calidad. Revisamos minuciosamente todos los documentos de proveedores para garantizar que todos los materiales y servicios cumplan con nuestras especificaciones y requisitos.
+     </p>
     </div>
-   </section>
-   <section class="mb-12">
-    <h2 class="mb-4 text-2xl font-bold text-sky-950">
-     Reportes de Calidad y Cantidad
-    </h2>
-    <div class="flex flex-wrap -mx-4">
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Ejemplo de reporte de calidad" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/Nhw6RSrR6wJwON1ocxpYcLnWuro1kGlprjoxaxj2ZdfIeG1TA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Generamos informes claros y precisos, enviados regularmente al cliente.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Ejemplo de reporte de cantidad" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/LfeHRlvwd4ps70MmlR7eHU9J281evCDfkk2v5hf1dC3TAvR9E.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Reportes detallados que reflejan la cantidad y calidad de los productos.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Gráficos y estadísticas en un reporte" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/BoffEhtKGNnSakEfGKZ1pWs7hja0JQR2VTUh6qk9CBJP4NqnA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Utilizamos gráficos y estadísticas para una mejor comprensión de los datos.
-      </p>
-     </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Reunión de Planificación
+     </h3>
+     <img alt="Equipo de supervisores en una reunión de planificación" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/ftrd64rpEfr2XkPJ1VfGPm6v3z5fttvyvb9dOZ6nepLJDSqeE.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Planificación y seguimiento detallado en cada fase del proceso. Nuestro equipo de supervisores se reúne regularmente para discutir el progreso, identificar posibles problemas y ajustar las estrategias para asegurar el éxito del proyecto.
+     </p>
     </div>
-   </section>
-   <section class="mb-12">
-    <h2 class="mb-4 text-2xl font-bold text-sky-950">
-     Auditorías e Inspecciones Físicas
-    </h2>
-    <div class="flex flex-wrap -mx-4">
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Auditor realizando una inspección en una fábrica" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/PtJjy0WBx3ZKIJHdUEe09Xm3aDK3wAgb2s81gu0sAn0FeG1TA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Realizamos auditorías periódicas en las instalaciones de los proveedores.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Equipo de auditores inspeccionando productos" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/LH7x1J9f8mV1JqFYOoYeLgrjKBrXxbfp1JUAd8JIEWES4NqnA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Inspecciones físicas para garantizar que los procesos se realicen de acuerdo a lo prometido.
-      </p>
-     </div>
-     <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
-      <img alt="Auditor revisando maquinaria en una fábrica" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/YwY8eOJBqVUoOCueVTcAcbKM8wqIBjyXv6DM6gUoRSUM8G1TA.jpg" width="400"/>
-      <p class="mt-2 text-gray-600 font-parkinsans">
-       Verificación de maquinaria y equipos utilizados en la producción.
-      </p>
-     </div>
+   </div>
+  </section>
+  <section class="mb-12">
+   <h2 class="mb-4 text-2xl font-bold text-sky-950">
+    Verificación de Certificaciones
+   </h2>
+   <div class="flex flex-wrap -mx-4">
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Certificado de Calidad
+     </h3>
+     <img alt="Hoja de papel con un certificado" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/guObTgEPiYKjJ1k5UuscQpt4inxyOiSsYmeswDPIs3SJKp6JA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Validamos las certificaciones de los proveedores para asegurar el cumplimiento de los estándares legales y regulatorios. Este proceso es esencial para mantener la integridad y la calidad de nuestros productos y servicios.
+     </p>
     </div>
-   </section>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Auditoría de Certificaciones
+     </h3>
+     <img alt="Hombre en una oficina revisando documentos" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/3Tf9hHwdquUmfUzk7pNpM9uOn4B0dQLAf7PbjrufWWvSRJVPB.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Proceso riguroso de verificación para garantizar la autenticidad de las certificaciones. Nuestros auditores revisan cada documento con detalle para asegurar que todos los requisitos se cumplan de manera adecuada.
+     </p>
+    </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Estándares Internacionales
+     </h3>
+     <img alt="Certificados de diferentes estándares internacionales" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/MayNVuYcWGqeVShv1xCvRtheYRffDODpxMKOw5ffe9sVIeG1TA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Aseguramos que los proveedores cumplan con los estándares internacionales. Esto incluye la verificación de certificaciones de calidad, seguridad y medio ambiente, entre otros, para garantizar que nuestros productos sean seguros y de alta calidad.
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="mb-12">
+   <h2 class="mb-4 text-2xl font-bold text-sky-950">
+    Reportes de Calidad y Cantidad
+   </h2>
+   <div class="flex flex-wrap -mx-4">
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Informe de Calidad
+     </h3>
+     <img alt="Persona revisando un informe de calidad" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/eW820Q00MjVAEKirdNlle74HbpHoNzw0ht73rKeVB6MTrkqnA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Generamos informes claros y precisos, enviados regularmente al cliente. Estos informes detallan todos los aspectos de la calidad del producto, asegurando que se cumplan los estándares establecidos.
+     </p>
+    </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Informe de Cantidad
+     </h3>
+     <img alt="Persona revisando un informe de cantidad" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/wKUz9dfexbnOdkEKb0hZLn9rdtUOvDBBgDjiSrY2fFMRrkqnA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Reportes detallados que reflejan la cantidad y calidad de los productos. Estos informes son esenciales para el control de inventarios y la planificación de la producción.
+     </p>
+    </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Gráficos y Estadísticas
+     </h3>
+     <img alt="Persona analizando gráficos y estadísticas en un reporte" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/16pd1gfdg4zBf0VxDnpdLS8GuVmq3U84fq1vNTlxK9lWrkqnA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Utilizamos gráficos y estadísticas para una mejor comprensión de los datos. Estos elementos visuales ayudan a identificar tendencias y tomar decisiones informadas.
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="mb-12">
+   <h2 class="mb-4 text-2xl font-bold text-sky-950">
+    Auditorías e Inspecciones Físicas
+   </h2>
+   <div class="flex flex-wrap -mx-4">
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Auditoría en Fábrica
+     </h3>
+     <img alt="Auditor realizando una inspección en una fábrica" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/PtJjy0WBx3ZKIJHdUEe09Xm3aDK3wAgb2s81gu0sAn0FeG1TA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Realizamos auditorías periódicas en las instalaciones de los proveedores. Estas auditorías incluyen la revisión de procesos, la verificación de la calidad de los productos y la evaluación de las condiciones de trabajo.
+     </p>
+    </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Inspección de Productos
+     </h3>
+     <img alt="Equipo de auditores inspeccionando productos" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/LH7x1J9f8mV1JqFYOoYeLgrjKBrXxbfp1JUAd8JIEWES4NqnA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Inspecciones físicas para garantizar que los procesos se realicen de acuerdo a lo prometido. Nuestro equipo de auditores verifica cada producto para asegurar que cumpla con los estándares de calidad y especificaciones técnicas.
+     </p>
+    </div>
+    <div class="w-full px-4 mb-8 md:w-1/2 lg:w-1/3">
+     <h3 class="mb-2 text-xl font-semibold">
+      Verificación de Maquinaria
+     </h3>
+     <img alt="Auditor revisando maquinaria en una fábrica" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/YwY8eOJBqVUoOCueVTcAcbKM8wqIBjyXv6DM6gUoRSUM8G1TA.jpg" width="300"/>
+     <p class="mt-2 text-gray-600">
+      Verificación de maquinaria y equipos utilizados en la producción. Aseguramos que todos los equipos estén en buen estado y funcionen correctamente para evitar cualquier interrupción en el proceso de producción.
+     </p>
+    </div>
+   </div>
+  </section>
    <section class="mb-12">
     <h2 class="mb-4 text-2xl font-bold text-sky-950">
      Beneficios Principales

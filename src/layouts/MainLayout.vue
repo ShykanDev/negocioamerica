@@ -42,9 +42,37 @@
       </div>
     </article>
   </section>
+  <small class="block py-2 text-center text-gray-700 bg-gray-100">
+  <div class="flex justify-center space-x-4">
+    <span>
+      <i class="fas fa-map-marker-alt"></i>
+      <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="text-gray-700 hover:text-green-500" target="_blank">
+        Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
+      </a>
+    </span>
+    <span>
+      <i class="fas fa-phone"></i>
+      <a href="tel:+525563950178" class="text-gray-700 hover:text-green-500">+52 55 6395 0178</a>
+    </span>
+    <span>
+      <i class="fas fa-phone"></i>
+      <a href="tel:+525563950179" class="text-gray-700 hover:text-green-500">+52 55 6395 0179</a>
+    </span>
+    <span>
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:informes@prasadam.mx" class="text-gray-700 hover:text-green-500">informes@prasadam.mx</a>
+    </span>
+    <span>
+      <i class="fab fa-whatsapp"></i>
+      <a href="https://wa.me/525562516687" class="text-gray-700 hover:text-green-500">+52 5562516687</a>
+    </span>
+  </div>
+</small>
+
+
 </header>
 
-    <main class="min-h-screen mt-20">
+    <main class="min-h-screen mt-28">
       <slot name="main"> </slot>
     </main>
     <footer class="py-10 text-gray-700 bg-slate-50">
@@ -184,9 +212,8 @@ const navItems = [
     name: 'informacion',
     route: '', 
     subLinks: [
-      { title: 'Historia de la Empresa', route: '' }, // Ruta esperada: '/informacion/historia'
-      { title: 'Nuestros Valores', route: '' }, // Ruta esperada: '/informacion/valores'
-      { title: 'Testimonios de Clientes Satisfechos', route: '' }, // Ruta esperada: '/informacion/testimonios'
+      { title: 'Historia de la Empresa', route: '/history/us' }, // Ruta esperada: '/informacion/historia'
+      { title: 'Contacto', route: '/contact' }, // Ruta esperada: '/informacion/contacto'
     ],
   }
 ]

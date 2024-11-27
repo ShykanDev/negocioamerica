@@ -1,7 +1,7 @@
 <template>
  <MainLayout>
     <template #main>
-        <section class="py-12">
+        <section class="py-8">
         <div class="container px-4 mx-auto">
             <div class="mb-8 text-center">
                 <h1 class="text-4xl font-bold text-sky-950">Comentarios de Nuestros Clientes</h1>
@@ -13,37 +13,37 @@
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Gracias a su supervisión constante, logramos importar productos tecnológicos de alta calidad sin retrasos. Su equipo estuvo siempre disponible para resolver cualquier duda y nos brindaron un excelente soporte durante todo el proceso."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El equipo nos guió desde la selección de proveedores hasta la entrega final. La calidad de los productos y el cumplimiento de plazos superaron nuestras expectativas."</p>
                     <small class="block mt-2 text-gray-500">Japón</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El proceso de importación fue fluido y sin complicaciones, estamos muy satisfechos con el servicio recibido. La comunicación fue clara y efectiva, lo que nos permitió estar siempre informados sobre el estado de nuestros envíos."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Logramos establecer una cadena de suministro confiable gracias a su conocimiento profundo del mercado. Su apoyo fue invaluable para reducir costos y evitar contratiempos."</p>
                     <small class="block mt-2 text-gray-500">China</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Su equipo nos ayudó a superar todas las barreras logísticas, excelente servicio. Gracias a su experiencia y conocimiento del mercado, pudimos importar nuestros productos sin ningún inconveniente y en el tiempo previsto."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Su enfoque estratégico nos permitió negociar mejores términos con los proveedores y simplificar procesos complejos de importación. Sin duda, un servicio de primera."</p>
                     <small class="block mt-2 text-gray-500">India</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"La comunicación fue clara y efectiva, logramos importar nuestros productos sin problemas. Su equipo estuvo siempre disponible para resolver cualquier duda y nos brindaron un excelente soporte durante todo el proceso."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Gracias a su asesoría, nuestros productos llegaron sin daños y cumpliendo con todas las normativas europeas. Esto nos dio la confianza para expandirnos a nuevos mercados."</p>
                     <small class="block mt-2 text-gray-500">Alemania</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Estamos muy agradecidos por su apoyo constante durante todo el proceso de importación. Gracias a su experiencia y conocimiento del mercado, pudimos importar nuestros productos sin ningún inconveniente y en el tiempo previsto."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Desde el inicio, se aseguraron de entender nuestras necesidades específicas. Esto resultó en una experiencia de importación eficiente y personalizada."</p>
                     <small class="block mt-2 text-gray-500">Brasil</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Su experiencia en el mercado nos dio la confianza que necesitábamos para importar. Gracias a su supervisión constante, logramos importar productos tecnológicos de alta calidad sin retrasos."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Con su ayuda, pudimos importar maquinaria especializada sin ningún contratiempo. Su conocimiento técnico marcó la diferencia en nuestro proyecto."</p>
                     <small class="block mt-2 text-gray-500">Canadá</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
@@ -55,49 +55,49 @@
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Gracias a su ayuda, pudimos expandir nuestro negocio internacionalmente. Su equipo nos brindó un excelente soporte durante todo el proceso de importación."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El seguimiento cercano y las soluciones rápidas hicieron que nuestro primer intento de importar fuera un éxito. Estamos impresionados por su profesionalismo."</p>
                     <small class="block mt-2 text-gray-500">Reino Unido</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El proceso de importación fue rápido y eficiente, muy recomendable. Gracias a su experiencia y conocimiento del mercado, pudimos importar nuestros productos sin ningún inconveniente y en el tiempo previsto."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Gestionaron toda la documentación aduanera de manera impecable, algo que siempre había sido un desafío para nosotros. Ahora, importar es más fácil que nunca."</p>
                     <small class="block mt-2 text-gray-500">Francia</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Su conocimiento del mercado internacional fue clave para nuestro éxito. La comunicación fue clara y efectiva, lo que nos permitió estar siempre informados sobre el estado de nuestros envíos."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El equipo nos ayudó a conectar con proveedores confiables y a evitar riesgos comunes. Gracias a ellos, nuestro negocio opera sin interrupciones.</p>
                     <small class="block mt-2 text-gray-500">Italia</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Estamos muy satisfechos con el servicio recibido, todo fue perfecto. Gracias a su supervisión constante, logramos importar productos tecnológicos de alta calidad sin retrasos."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"La claridad en la comunicación y las actualizaciones constantes nos mantuvieron tranquilos en todo momento. Esto es raro de encontrar en servicios internacionales."</p>
                     <small class="block mt-2 text-gray-500">España</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"La atención al cliente fue excepcional, siempre estuvieron disponibles para ayudarnos. Gracias a su experiencia y conocimiento del mercado, pudimos importar nuestros productos sin ningún inconveniente y en el tiempo previsto."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Gracias a su amplia red de contactos, logramos importar productos únicos que nos han diferenciado en el mercado local."</p>
                     <small class="block mt-2 text-gray-500">México</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Gracias a su asesoría, pudimos importar productos de alta calidad a un buen precio. La comunicación fue clara y efectiva, lo que nos permitió estar siempre informados sobre el estado de nuestros envíos."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Fueron esenciales para manejar regulaciones complicadas. Su experiencia nos ahorró tiempo y recursos valiosos."</p>
                     <small class="block mt-2 text-gray-500">Corea del Sur</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El proceso de importación fue transparente y sin sorpresas, muy recomendable. Gracias a su experiencia y conocimiento del mercado, pudimos importar nuestros productos sin ningún inconveniente y en el tiempo previsto."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Nos proporcionaron un plan detallado para optimizar nuestras importaciones. Sus recomendaciones estratégicas aumentaron nuestra rentabilidad."</p>
                     <small class="block mt-2 text-gray-500">Sudáfrica</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>
                 <div class="flex flex-col p-6 bg-white rounded-lg shadow-lg">
                     <i class="text-2xl text-orange-500 fas fa-quote-left"></i>
-                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"Su equipo nos brindó un excelente soporte durante todo el proceso de importación. La comunicación fue clara y efectiva, lo que nos permitió estar siempre informados sobre el estado de nuestros envíos."</p>
+                    <p class="flex-grow mt-4 text-lg font-semibold font-josefin-sans">"El servicio fue tan eficiente que pudimos reabastecer nuestro inventario antes de lo esperado. Esto marcó la diferencia en nuestra temporada alta."</p>
                     <small class="block mt-2 text-gray-500">Argentina</small>
                     <i class="mt-2 text-gray-500 fas fa-flag"></i>
                 </div>

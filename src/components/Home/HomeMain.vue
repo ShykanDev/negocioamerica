@@ -34,7 +34,7 @@
             Con más de 30 años de experiencia, nos especializamos en ser el puente confiable entre empresas internacionales y proveedores mexicanos. Nos encargamos de cada detalle para garantizar que su producto o servicio cumpla con los más altos estándares de calidad, llegue en tiempo y forma, y que su proveedor sea completamente confiable.
         </p>
         <p class="mb-4 text-lg leading-relaxed text-left text-slate-800">
-            Ya sea que busque importar aguacates, artesanías, maquinaria o cualquier otro servicio o producto, nuestra misión es facilitar el proceso para que usted se enfoque en su negocio mientras nosotros nos encargamos de la supervisión, auditoría y verificación en México.
+            Ya sea que busque importar en el sector de agricultura, artesanías, maquinaria o cualquier otro servicio o producto, nuestra misión es facilitar el proceso para que usted se enfoque en su negocio mientras nosotros nos encargamos de la supervisión, auditoría y verificación en México.
         </p>
         <p class="mb-4 text-lg leading-relaxed text-left text-slate-800">
             Con presencia en toda la República Mexicana, nuestro equipo realiza verificaciones presenciales, supervisiones constantes y reportes detallados para garantizar la calidad y confiabilidad de cada envío. Nuestro enfoque en la transparencia y el compromiso nos convierte en el aliado estratégico que necesita para asegurar el éxito de sus operaciones.
