@@ -165,19 +165,18 @@ const navItems = [
     name: 'spaTwo',
     route: '', // Ruta esperada: '/servicios'
     subLinks: [
-      { title: 'Supervisión y Verificación de Proveedores', route: '' }, // Ruta esperada: '/servicios/supervision-verificacion'
-      { title: 'Auditorías de Calidad y Cumplimiento', route: '' }, // Ruta esperada: '/servicios/auditorias-calidad'
-      { title: 'Documentación y Reportes Transparentes', route: '' }, // Ruta esperada: '/servicios/documentacion-reportes'
+      { title: 'Supervisión y Verificación de Proveedores', route: '/services/supervision' }, // Ruta esperada: '/servicios/supervision-verificacion'
+      // { title: 'Auditorías de Calidad y Cumplimiento', route: '/supervision/services' },
+      // { title: 'Documentación y Reportes Transparentes', route: '/supervision/services' }, 
     ],
   },
   {
-    title: 'Beneficios',
+    title: 'Clientes',
     name: 'spaThree',
     route: '', 
     subLinks: [
-      { title: 'Confianza y Seguridad', route: '' }, // Ruta esperada: '/beneficios/confianza-seguridad'
-      { title: 'Mitigación de Riesgos en la Cadena de Suministro', route: '' }, // Ruta esperada: '/beneficios/mitigacion-riesgos'
-      { title: 'Control de Calidad en Tiempo Real', route: '' }, // Ruta esperada: '/beneficios/control-calidad'
+      { title: 'Comentarios de nuestros clientes', route: '/commments/users' }, // Ruta esperada: '/beneficios/confianza-seguridad'
+  
     ],
   },
   {

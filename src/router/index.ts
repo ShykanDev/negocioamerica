@@ -48,6 +48,16 @@ const router = createRouter({
       path: '/international/expansion',
       name: 'international-expansion',
       component: () => import('../views/Us/ExpansionView.vue'),
+    },
+    {
+      path: '/services/supervision',
+      name: 'internation',
+      component: () => import('../views/services/ServicesView.vue'),
+    },
+    {
+      path:'/commments/users',
+      name:'commments',
+      component: () => import('../views/CommentsView.vue'),
     }
   ],
   scrollBehavior() {
