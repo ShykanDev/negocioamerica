@@ -39,6 +39,16 @@ const router = createRouter({
       name: 'supervision',
       component: () => import('../views/Home/SupervisionProccessView.vue'),
     },
+    {
+      path: '/equipos-supervision',
+      name: 'supervision-teams',
+      component: () => import('../views/Us/SupervisionView.vue'),
+    },
+    {
+      path: '/international/expansion',
+      name: 'international-expansion',
+      component: () => import('../views/Us/ExpansionView.vue'),
+    }
   ],
   scrollBehavior() {
     return { top: 0 }

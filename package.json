@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.2.6",
     "tailwindcss-animated": "^1.1.2",

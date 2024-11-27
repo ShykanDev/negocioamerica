@@ -1,17 +1,17 @@
 <template>
     <body class="text-gray-800 bg-gray-100">
-    <header class="py-6 text-white bg-sky-950 font-parkinsans">
+    <div class="py-3 text-white bg-sky-950 font-parkinsans">
         <div class="container px-4 mx-auto">
-            <h1 class="text-3xl font-bold">
+            <h1 class="text-2xl font-bold">
                 Nuestro Proceso de Supervisión
             </h1>
             <p class="mt-2">
                 Garantizando calidad, confianza y eficiencia en cada paso.
             </p>
         </div>
-    </header>
+    </div>
 
-    <main class="container p-5 px-1 py-8 mx-auto my-6 bg-white rounded-md">
+    <main class="container p-5 px-1 mx-auto my-6 bg-white rounded-md py-">
         <section class="mb-8">
             <h2 class="text-2xl font-bold text-sky-950">
                Conozca como es nuestro proceso de supervisión

@@ -1,8 +1,8 @@
 <template>
 <section class="mb-4 bg-white ">
-    <div class="py-6 text-white bg-sky-950 font-parkinsans">
+    <div class="py-3 text-white bg-sky-950 font-parkinsans">
         <div class="container px-4 mx-auto">
-            <h1 class="text-3xl font-bold">
+            <h1 class="text-2xl font-bold">
                 Nuestra Misión:
             </h1>
             <p class="mt-2">
@@ -44,49 +44,49 @@
           </h3>
         </div>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-th-large text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Diversidad de Soluciones:</strong>
               <span>Cubrimos un amplio rango de necesidades, desde productos agrícolas hasta servicios tecnológicos especializados.</span>
             </div>
           </div>
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-check-circle text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Compromiso con la Calidad:</strong>
               <span>Nos aseguramos de que todos los productos y servicios cumplan con los más altos estándares internacionales.</span>
             </div>
           </div>
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-eye text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Transparencia Total:</strong>
               <span>Ofrecemos comunicación constante, reportes detallados y un flujo de información confiable.</span>
             </div>
           </div>
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-balance-scale text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Confianza y Legalidad:</strong>
               <span>Verificamos cada operación y proveedor para garantizar procesos legales y éticos.</span>
             </div>
           </div>
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-map-marked-alt text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Alcance Nacional:</strong>
               <span>Contamos con una red extensa que abarca toda la República Mexicana.</span>
             </div>
           </div>
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-users text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Atención Personalizada:</strong>
               <span>Trabajamos estrechamente con cada cliente para entender y satisfacer sus necesidades únicas.</span>
             </div>
           </div>
-          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+          <div data-aos="zoom-in-up" class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
             <i class="w-8 h-8 fas fa-rocket text-sky-950"></i>
             <div class="ml-4">
               <strong class="block text-lg">Innovación Constante:</strong>
@@ -99,9 +99,9 @@
       <!-- Compromiso con la Excelencia -->
       <div class="p-6 bg-white rounded-lg shadow-md">
         <div class="flex items-center mb-4">
-          <h3 class="text-2xl font-semibold text-sky-950">
+          <h3 class="text-2xl font-semibold text-slate-800">
             Compromiso con la Excelencia
-            <i class="w-12 h-12 ml-4 fas fa-star text-sky-950"></i>
+            <!-- <i class="w-12 h-12 ml-4 fas fa-star text-sky-950"></i> -->
           </h3>
         </div>
         <p class="mb-4 text-base font-parkinsans">
@@ -123,21 +123,21 @@
     </div>
     <div class="grid grid-cols-1 gap-6 mt-4 md:grid-cols-2 lg:grid-cols-3">
   <!-- Card 1: Misión -->
-  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <div data-aos="zoom-in-up" class="p-6 bg-white border rounded-lg shadow-md">
     <i class="mb-4 text-3xl fa fa-bullseye text-sky-800"></i>
     <h3 class="mb-2 text-lg font-semibold">Nuestra Misión</h3>
     <p class="text-gray-700">Ser el puente confiable entre los productos mexicanos y el mundo, ofreciendo calidad, innovación y sostenibilidad en cada operación.</p>
   </div>
 
   <!-- Card 2: Visión -->
-  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <div data-aos="zoom-in-up" class="p-6 bg-white border rounded-lg shadow-md">
     <i class="mb-4 text-3xl fa fa-eye text-sky-800"></i>
     <h3 class="mb-2 text-lg font-semibold">Nuestra Visión</h3>
     <p class="text-gray-700">Convertirnos en líderes globales en exportación, integrando tecnología, logística y responsabilidad social para transformar mercados internacionales.</p>
   </div>
 
   <!-- Card 3: Calidad e Innovación -->
-  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <div data-aos="zoom-in-up" class="p-6 bg-white border rounded-lg shadow-md">
     <i class="mb-4 text-3xl fa fa-lightbulb text-sky-800"></i>
     <h3 class="mb-2 text-lg font-semibold">Calidad e Innovación</h3>
     <ul class="text-gray-700 list-disc list-inside">
@@ -148,7 +148,7 @@
   </div>
 
   <!-- Card 4: Logística Personalizada -->
-  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <div data-aos="zoom-in-up" class="p-6 bg-white border rounded-lg shadow-md">
     <i class="mb-4 text-3xl fa fa-truck text-sky-800"></i>
     <h3 class="mb-2 text-lg font-semibold">Logística Personalizada</h3>
     <ul class="text-gray-700 list-disc list-inside">
@@ -159,7 +159,7 @@
   </div>
 
   <!-- Card 5: Red Global -->
-  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <div data-aos="zoom-in-up" class="p-6 bg-white border rounded-lg shadow-md">
   <i class="mb-4 text-3xl fa fa-tags text-sky-800"></i>
   <h3 class="mb-2 text-lg font-semibold">Costos Más Bajos del Mercado</h3>
   <ul class="text-gray-700 list-disc list-inside">
@@ -171,7 +171,7 @@
 
 
   <!-- Card 6: Compromiso Sostenible -->
-  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <div data-aos="zoom-in-up" class="p-6 bg-white border rounded-lg shadow-md">
     <i class="mb-4 text-3xl fa fa-leaf text-sky-800"></i>
     <h3 class="mb-2 text-lg font-semibold">Compromiso Sostenible</h3>
     <ul class="text-gray-700 list-disc list-inside">

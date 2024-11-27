@@ -3,7 +3,9 @@
 <!-- Hero Section -->
 <section class="relative h-screen bg-center bg-cover" style="background-image: url('https://storage.googleapis.com/a1aa/image/wRKTDXetq8UEbiDi4sMOoqfpIGAguCRjYSRnAAwaKp73sw0TA.jpg');">
   <div class="absolute inset-0 bg-black opacity-60"></div>
-  <div class="container relative z-10 flex flex-col items-center justify-center h-full mx-auto text-center text-white">
+  <div class="container relative z-10 flex flex-col items-center h-full py-4 mx-auto text-center text-white">
+  <SliderImages />
+
     <h1 class="mb-6 text-6xl font-extrabold leading-tight animate-fade">
       Somos tus ojos en las importaciones de México
     </h1>
@@ -40,67 +42,93 @@
 
         <!-- Lista con estilo tarjetas -->
         <div class="grid gap-6 mt-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div class="p-6 bg-white border rounded-lg shadow-lg">
-                <div class="flex items-center mb-4">
-                    <i class="mr-3 text-2xl fas fa-eye text-sky-950"></i>
-                    <h3 class="text-xl font-semibold text-sky-950">Supervisión Integral</h3>
-                </div>
-                <p class="text-slate-800">
-                    Supervisamos cada etapa del proceso, desde el empaque hasta el envío, asegurándonos de que su producto cumpla con las especificaciones acordadas.
-                </p>
-            </div>
-            <div class="p-6 bg-white border rounded-lg shadow-lg">
-                <div class="flex items-center mb-4">
-                    <i class="mr-3 text-2xl fas fa-check-circle text-sky-950"></i>
-                    <h3 class="text-xl font-semibold text-sky-950">Verificación de Proveedores</h3>
-                </div>
-                <p class="text-slate-800">
-                    Validamos que el proveedor mexicano sea confiable, legal y esté certificado, minimizando riesgos y asegurando la estabilidad de su operación.
-                </p>
-            </div>
-            <div class="p-6 bg-white border rounded-lg shadow-lg">
-                <div class="flex items-center mb-4">
-                    <i class="mr-3 text-2xl fas fa-file-alt text-sky-950"></i>
-                    <h3 class="text-xl font-semibold text-sky-950">Auditorías y Reportes</h3>
-                </div>
-                <p class="text-slate-800">
-                    Realizamos auditorías completas y enviamos reportes detallados con fotos, videos y documentación en el idioma que usted requiera.
-                </p>
-            </div>
-            <div class="p-6 bg-white border rounded-lg shadow-lg">
-                <div class="flex items-center mb-4">
-                    <i class="mr-3 text-2xl fas fa-shield-alt text-sky-950"></i>
-                    <h3 class="text-xl font-semibold text-sky-950">Aseguramiento de Calidad</h3>
-                </div>
-                <p class="text-slate-800">
-                    Nos aseguramos de que cada producto o servicio cumpla con los estándares de calidad que usted espera y lleguen en perfectas condiciones.
-                </p>
-            </div>
-            <div class="p-6 bg-white border rounded-lg shadow-lg">
-                <div class="flex items-center mb-4">
-                    <i class="mr-3 text-2xl fas fa-headset text-sky-950"></i>
-                    <h3 class="text-xl font-semibold text-sky-950">Soporte Personalizado</h3>
-                </div>
-                <p class="text-slate-800">
-                    Nuestro equipo lo asistirá en cada paso del proceso, desde la selección del proveedor hasta la entrega final, con atención personalizada.
-                </p>
-            </div>
-            <div class="p-6 bg-white border rounded-lg shadow-lg">
-                <div class="flex items-center mb-4">
-                    <i class="mr-3 text-2xl fas fa-globe text-sky-950"></i>
-                    <h3 class="text-xl font-semibold text-sky-950">Consultoría de Exportaciones</h3>
-                </div>
-                <p class="text-slate-800">
-                    Ofrecemos asesoramiento sobre regulaciones internacionales y mejores prácticas para optimizar sus importaciones desde México.
-                </p>
-            </div>
-        </div>
+   <div class="p-6 bg-white border rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+     <i class="mr-3 text-2xl fas fa-eye text-sky-950">
+     </i>
+     <h3 class="text-xl font-semibold text-sky-950">
+      Supervisión Integral
+     </h3>
+    </div>
+    <p class="text-slate-800">
+     Supervisamos cada etapa del proceso, desde el empaque hasta el envío, asegurándonos de que su producto cumpla con las especificaciones acordadas.
+    </p>
+    <img alt="Imagen realista de supervisión integral mostrando un proceso de inspección detallada" class="mx-auto mt-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/OesNYL2jbfsRFENu5pHbiSoxdlBKqj9wCDKrmKLrwuaIZE1TA.jpg" width="300"/>
+   </div>
+   <div class="p-6 bg-white border rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+     <i class="mr-3 text-2xl fas fa-check-circle text-sky-950">
+     </i>
+     <h3 class="text-xl font-semibold text-sky-950">
+      Verificación de Proveedores
+     </h3>
+    </div>
+    <p class="text-slate-800">
+     Validamos que el proveedor mexicano sea confiable, legal y esté certificado, minimizando riesgos y asegurando la estabilidad de su operación.
+    </p>
+    <img alt="Imagen realista de verificación de proveedores mostrando un proceso de validación" class="mx-auto mt-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/c35yaLYhaXoAAZQl3trEfzu5JsHQvGp9u6exLNbFDVJ3WE1TA.jpg" width="300"/>
+   </div>
+   <div class="p-6 bg-white border rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+     <i class="mr-3 text-2xl fas fa-file-alt text-sky-950">
+     </i>
+     <h3 class="text-xl font-semibold text-sky-950">
+      Auditorías y Reportes
+     </h3>
+    </div>
+    <p class="text-slate-800">
+     Realizamos auditorías completas y enviamos reportes detallados con fotos, videos y documentación en el idioma que usted requiera.
+    </p>
+    <img alt="Imagen realista de auditorías y reportes mostrando un informe detallado" class="mx-auto mt-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/kEeb0KWajVVZfkJtr3mkmFORvfUeAUflJ6IyOynn2IOn2ioeE.jpg" width="300"/>
+   </div>
+   <div class="p-6 bg-white border rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+     <i class="mr-3 text-2xl fas fa-shield-alt text-sky-950">
+     </i>
+     <h3 class="text-xl font-semibold text-sky-950">
+      Aseguramiento de Calidad
+     </h3>
+    </div>
+    <p class="text-slate-800">
+     Nos aseguramos de que cada producto o servicio cumpla con los estándares de calidad que usted espera y lleguen en perfectas condiciones.
+    </p>
+    <img alt="Imagen realista de aseguramiento de calidad mostrando un proceso de control de calidad" class="mx-auto mt-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/iqhilGoTwKa6NJWO13Zyqcjs7BSuct6pHegmjSA2gW7hOi6JA.jpg" width="300"/>
+   </div>
+   <div class="p-6 bg-white border rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+     <i class="mr-3 text-2xl fas fa-headset text-sky-950">
+     </i>
+     <h3 class="text-xl font-semibold text-sky-950">
+      Soporte Personalizado
+     </h3>
+    </div>
+    <p class="text-slate-800">
+     Nuestro equipo lo asistirá en cada paso del proceso, desde la selección del proveedor hasta la entrega final, con atención personalizada.
+    </p>
+    <img alt="Imagen realista de soporte personalizado mostrando un equipo de atención al cliente" class="mx-auto mt-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/NH1CZfNmuaXoaa5GeB3VJ4GUGyIFG1g86n76OB5Ux0lbcE1TA.jpg" width="300"/>
+   </div>
+   <div class="p-6 bg-white border rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+     <i class="mr-3 text-2xl fas fa-globe text-sky-950">
+     </i>
+     <h3 class="text-xl font-semibold text-sky-950">
+      Consultoría de Exportaciones
+     </h3>
+    </div>
+    <p class="text-slate-800">
+     Ofrecemos asesoramiento sobre regulaciones internacionales y mejores prácticas para optimizar sus importaciones desde México.
+    </p>
+    <img alt="Imagen realista de consultoría de exportaciones mostrando un proceso de asesoramiento" class="mx-auto mt-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/HGIOhakHVTpACJJXg5thsKeVxOiMVYiVtW9ILabh8VZcLi6JA.jpg" width="300"/>
+   </div>
+  </div>
     </div>
     </section>
 <div id="servicios" class="pt-9"></div>
     <section class="py-12 bg-white font-roboto">
-        <div class="container px-4 mx-auto">
+        <div  class="container px-4 mx-auto " >
+          <div data-aos="fade-up">
             <h2 class="mb-6 text-3xl font-bold text-left text-sky-950">Nuestros Servicios</h2>
+          </div>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <div class="p-6 transition border rounded-lg shadow-md bg-gray-50 border-sky-800 hover:shadow-lg">
                     <div class="mb-4 text-center">
@@ -193,15 +221,17 @@
 <!-- ¿Quiénes Somos? -->
 <section id="quienes-somos" class="py-16 bg-gray-50 font-poppins">
   <div class="container mx-auto text-center">
-    <h2 class="mb-6 text-4xl font-extrabold text-blue-950 font-parkinsans">
-      Líderes en calidad y confiabilidad.
-    </h2>
+    <div data-aos="fade-up">
+      <h2 class="mb-6 text-4xl font-extrabold text-blue-950 font-parkinsans">
+        Líderes en calidad y confiabilidad.
+      </h2>
+    </div>
     <p class="max-w-4xl mx-auto mb-12 text-lg">
       Con más de 30 años de experiencia, ayudamos a empresas globales a importar productos y servicios mexicanos de manera segura, eficiente y sin complicaciones. Desde la supervisión presencial hasta la certificación, estamos con usted en cada paso.
     </p>
     <div class="container p-8 mx-auto">
       <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-user-check fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Supervisión personalizada
@@ -215,7 +245,7 @@
             <li>Soporte continuo</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-map-marked-alt fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Cobertura nacional
@@ -229,7 +259,7 @@
             <li>Acceso rápido</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-chart-line fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Reportes en tiempo real
@@ -243,7 +273,7 @@
             <li>Acceso 24/7</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-certificate fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Certificaciones internacionales
@@ -257,7 +287,7 @@
             <li>Calidad garantizada</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-right" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-people-carry fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Expertos en importación
@@ -271,7 +301,7 @@
             <li>Conexiones internacionales</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-right" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-truck fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Logística eficiente
@@ -285,7 +315,7 @@
             <li>Seguimiento en tiempo real</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-right" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-headset fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Soporte al cliente
@@ -299,7 +329,7 @@
             <li>Disponibilidad continua</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-right" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-bullhorn fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Estrategias de marketing
@@ -313,7 +343,7 @@
             <li>Publicidad dirigida</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-globe fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Comercio internacional
@@ -327,7 +357,7 @@
             <li>Conexiones globales</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-warehouse fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Gestión aduanera
@@ -341,7 +371,7 @@
             <li>Despacho rápido</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-boxes fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Soluciones logísticas
@@ -355,7 +385,7 @@
             <li>Distribución rápida</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-shopping-cart fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Comercio electrónico
@@ -369,7 +399,7 @@
             <li>Gestión de inventarios</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-hand-holding-usd fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Financiamiento
@@ -383,7 +413,7 @@
             <li>Planes de pago flexibles</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-chart-pie fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Análisis de mercado
@@ -397,7 +427,7 @@
             <li>Identificación de tendencias</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg">
           <i class="mb-4 fas fa-lightbulb fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Desarrollo de productos
@@ -411,7 +441,7 @@
             <li>Estrategias de lanzamiento</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-lg ">
+        <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow-lg ">
           <i class="mb-4 fas fa-shield-alt fa-4x text-blue-950"></i>
           <h3 class="mb-2 text-lg font-semibold">
             Gestión de riesgos
@@ -434,9 +464,11 @@
 <!-- Diversidad de Productos y Servicios -->
 <section class="py-16 bg-white" id="productos-servicios">
    <div class="container mx-auto text-center">
-    <h2 class="mb-6 text-4xl font-extrabold text-sky-950">
-  Soluciones a medida con productos y servicios de México.
-</h2>
+    <div >
+      <h2 class="mb-6 text-4xl font-extrabold text-sky-950">
+        Soluciones a medida con productos y servicios de México.
+      </h2>
+    </div>
 <p class="mx-auto mb-12 text-lg ">
   Adaptamos nuestra oferta a las necesidades únicas de tu empresa. Como intermediarios, te conectamos con los mejores proveedores mexicanos, asegurando productos y servicios que cumplen con los más altos estándares de calidad internacional. Ya sea que busques soluciones innovadoras, productos tradicionales o servicios especializados, nuestro enfoque personalizado garantiza que encuentres lo que tu negocio necesita.
 </p>
@@ -468,14 +500,14 @@
     <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Optimización de costos mediante proveedores competitivos, sin comprometer la calidad.
   </li>
 </ul>
-<h2 class="mt-6 mb-12 text-4xl font-extrabold mt-9 text-sky-950 font-roboto">
+<h2 class="mt-6 mb-12 text-4xl font-extrabold text-sky-950 font-roboto">
    Tenemos provedores para todo tipo de servicio o producto mexicano.
 </h2>
 
 
     <div class="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
       <!-- Agricultura -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Cajas de frutas frescas y coloridas en un mercado" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/0TO1HW5JeSxAL6dEaN7kOt1Tw0lohaNmUtcYF7cFsDda6e0TA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector Agrícola
@@ -491,7 +523,7 @@
   </div>
   
   <!-- Textiles y Artesanías -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Telas artesanales coloridas y detalladas" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/YL0peffIgfpKfi4e07FlNTSfO7C4NpkKntYRFTqIzULCT6e0TA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector Textil y Artesanal
@@ -507,7 +539,7 @@
   </div>
   
   <!-- Servicios Especializados -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Ingeniero trabajando en un proyecto industrial" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/nLFrJy4U6SaxMdoyarVA7yPp94c6EFkCdFoZDmRVq1eT6e0TA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector Servicios Especializados
@@ -523,7 +555,7 @@
   </div>
   
   <!-- Industria -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Maquinaria industrial moderna en una fábrica" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/UFz0rfCGGN2rSCF6HNcMFOxZfxCOF4rULd5OofHmEwDnp7pnA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector Industrial
@@ -539,7 +571,7 @@
   </div>
   
   <!-- Bebidas -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Botellas de tequila y mezcal en una mesa de madera" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/kaMyf6YvIOSYXysq1PDvGgzGoP1iPjPOUT8NKGpAzUgX6e0TA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector de Bebidas y Licores
@@ -555,7 +587,7 @@
   </div>
   
   <!-- Cosméticos -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Productos de belleza naturales en un entorno de spa" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/Dvs4VbeVLs2TECcrmpVlQOLv48cIDqedMwMug6rkiOfcp7pnA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector Cosmético
@@ -571,7 +603,7 @@
   </div>
   
   <!-- Consultoría -->
-  <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+  <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Consultores empresariales en una reunión de trabajo" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/QdVanX2swR7jO1Ol9tZtM5KoMwSBHF2RmMVFMfq2tZsW6e0TA.jpg" width="600"/>
     <h3 class="mb-2 text-lg font-semibold">
       Sector Consultoría Empresarial
@@ -586,7 +618,7 @@
     </div>
   </div>
      <!-- Desarrollo de Software -->
-     <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+     <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
       <img alt="Equipo de desarrollo de software trabajando en una oficina moderna" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/omeUmfeukDV1WpqueOksB4UDV4o0ihiZxVO8NAwjfM9ImuneE.jpg" width="600"/>
       <h3 class="mb-2 text-lg font-semibold">
        Sector Tecnológico
@@ -602,7 +634,7 @@
      </div>
 
      <!-- Marketing Digital -->
-     <div class="p-6 rounded-lg shadow-lg bg-gray-50">
+     <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
       <img alt="Equipo de marketing digital trabajando en estrategias en una oficina" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/Ymqus9rXQuayNtTr4npmKLVweuRAiq84QqJUfZgAS8Fr090TA.jpg" width="600"/>
       <h3 class="mb-2 text-lg font-semibold">
         Sector de Tecnología e Innovación Mexicana
@@ -658,7 +690,7 @@
 
 
 <!-- Llamado a la acción -->
-<section id="cta-final" class="py-2 bg-white">
+<section data-aos="zoom-in-up" id="cta-final" class="py-2 bg-white">
   <div class="container py-5 mx-auto text-center">
     <h2 class="mb-6 text-4xl font-extrabold text-sky-950">
       Potencia tus operaciones internacionales.
@@ -675,6 +707,8 @@
 </template>
 
 <script lang="ts" setup>
+import SliderImages from '../animations/SliderImages.vue';
+
 
 </script>
 
