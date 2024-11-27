@@ -13,6 +13,8 @@ export default {
         'josefin-sans': ['Josefin Sans', 'sans-serif'],
         'parkinsans': ['Parkinsans', 'sans-serif'],
         'jost': ['Jost', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+
       },
   },
   },

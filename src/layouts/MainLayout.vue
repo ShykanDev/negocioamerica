@@ -7,19 +7,21 @@
       <!-- Título con fondo rojo -->
       <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
       
-      <div class="flex items-center h-full space-x-6 text-xl font-medium">
+      <div class="flex items-center h-full space-x-6 text-base font-medium">
         <!-- Loop through navigation items -->
         <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
           
           <!-- Contenedor del enlace y submenú -->
           <div class="relative w-full h-full group">
             <!-- Reemplazado RouterLink por un <h3> -->
-            <h3
-              :class="{ 'border-b-white border-b-2 h-full': route.name === item.name }"
-              class="flex items-center w-full h-full px-4 py-2 cursor-pointer text-sky-950 hover:border-b-black hover:border-b-2"
-            >
-              {{ item.title }}
-            </h3>
+              <h3
+  :class="{ 'border-b-white border-b-2 h-full': route.name === item.name }"
+  class="flex items-center justify-center w-full h-full px-4 py-2 cursor-pointer text-sky-950 hover:border-b-black hover:border-b-2"
+>
+  {{ item.title }}
+  <i class="ml-1 scale-75 fas fa-chevron-down"></i>
+</h3>
+
 
             <!-- Submenu for each item -->
             <div

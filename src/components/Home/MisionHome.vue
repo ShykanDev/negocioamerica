@@ -1,133 +1,191 @@
 <template>
-<section class="py-12 bg-white">
-   <div class="container px-6 mx-auto">
-    <div class="flex items-center mb-6">
-     <h2 class="text-3xl font-bold text-sky-950 font-poppins">
-      Nuestra Misión: Conectar México con el mundo, ofreciendo soluciones integrales.
-     </h2>
-     <img alt="Icono de misión representando conexión global" class="w-12 h-12 ml-4" height="50" src="https://storage.googleapis.com/a1aa/image/iz9D7G34rVJACxwjN7nkELDsTz5PsucH8mjJ1ffGn7fayipnA.jpg" width="50"/>
+<section class="mb-4 bg-white ">
+    <div class="py-6 text-white bg-sky-950 font-parkinsans">
+        <div class="container px-4 mx-auto">
+            <h1 class="text-3xl font-bold">
+                Nuestra Misión:
+            </h1>
+            <p class="mt-2">
+                Conectar México con el mundo, ofreciendo soluciones integrales.
+                <i class="ml-1 text-white fas fa-globe-americas"></i>
+            </p>
+        </div>
     </div>
-    <p class="mb-6 text-lg">
-     En [Nombre de la Empresa], nuestra misión es ser el aliado confiable para empresas de todo el mundo que buscan productos y servicios de alta calidad provenientes de México. Ofrecemos una vasta gama de soluciones que abarcan desde productos agrícolas y artesanales hasta servicios especializados en diversas industrias, adaptándonos a las necesidades de cada cliente y región.
-    </p>
-    <p class="mb-6 text-lg">
-     Nos dedicamos a supervisar todo el proceso de exportación, asegurando que cada producto y servicio cumpla con los más altos estándares de calidad, eficiencia y legalidad. Con más de 30 años de experiencia, proporcionamos supervisión constante, informes detallados y soluciones personalizadas para cada cliente, permitiéndoles operar con total confianza.
-    </p>
-    <div class="flex items-center mb-4">
-     <h3 class="text-2xl font-semibold text-sky-950 font-poppins">
-      Valores que nos definen:
-     </h3>
-     <img alt="Icono de valores representando principios fundamentales" class="w-12 h-12 ml-4" height="50" src="https://storage.googleapis.com/a1aa/image/hYC2hC3Ee5VjR6BmkMGRDCl39yppCv12CxN6OZYhzmNksY6JA.jpg" width="50"/>
+  <div class="container px-6 mx-auto">
+    <div class="mx-auto">
+      <!-- Nuestra Misión -->
+      <div class="p-6 mb-6 bg-white rounded-lg shadow-md">
+        <div class="flex items-center mb-4">
+        </div>
+        <p class="mb-4 text-base font-poppins">
+          Estamos comprometidos a ser el enlace confiable entre México y el resto del mundo. Nos dedicamos a ofrecer soluciones personalizadas que se adaptan a las demandas y expectativas de cada cliente, con un enfoque en la calidad, la autenticidad y la excelencia.
+        </p>
+        <p class="mb-4 text-base font-parkinsans">
+          Nuestro equipo supervisa cada paso del proceso de exportación, asegurándose de que los productos y servicios cumplan con todas las normativas internacionales. Con más de tres décadas de experiencia, nos enorgullece proporcionar un servicio integral que garantice la satisfacción de nuestros socios en todo el mundo.
+        </p>
+        <ul class="pl-8 mb-6 list-none font-parkinsans">
+  <li><i class="mr-2 fa fa-star text-sky-800"></i>Acceso a productos mexicanos de alta calidad y autenticidad.</li>
+  <li><i class="mr-2 fa fa-truck text-sky-800"></i>Soluciones de logística personalizadas para exportaciones eficientes.</li>
+  <li><i class="mr-2 fa fa-gavel text-sky-800"></i>Asesoramiento en normativas internacionales y requisitos legales.</li>
+  <li><i class="mr-2 fa fa-handshake text-sky-800"></i>Red de proveedores confiables en diversos sectores.</li>
+  <li><i class="mr-2 fa fa-chart-line text-sky-800"></i>Reportes detallados sobre el estado de las operaciones.</li>
+  <li><i class="mr-2 fa fa-globe text-sky-800"></i>Atención al cliente multilingüe para facilitar la comunicación global.</li>
+  <li><i class="mr-2 fa fa-lightbulb text-sky-800"></i>Innovación constante en nuestros procesos y servicios.</li>
+</ul>
+
+      </div>
+
+      <!-- Valores que nos definen -->
+      <div class="p-6 mb-6 bg-white rounded-lg shadow-md">
+        <div class="flex items-center mb-4">
+          <h3 class="text-2xl font-semibold text-sky-950">
+            Valores que nos definen:
+            <i class="w-12 h-12 ml-4 fas fa-handshake text-sky-950"></i>
+          </h3>
+        </div>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-th-large text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Diversidad de Soluciones:</strong>
+              <span>Cubrimos un amplio rango de necesidades, desde productos agrícolas hasta servicios tecnológicos especializados.</span>
+            </div>
+          </div>
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-check-circle text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Compromiso con la Calidad:</strong>
+              <span>Nos aseguramos de que todos los productos y servicios cumplan con los más altos estándares internacionales.</span>
+            </div>
+          </div>
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-eye text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Transparencia Total:</strong>
+              <span>Ofrecemos comunicación constante, reportes detallados y un flujo de información confiable.</span>
+            </div>
+          </div>
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-balance-scale text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Confianza y Legalidad:</strong>
+              <span>Verificamos cada operación y proveedor para garantizar procesos legales y éticos.</span>
+            </div>
+          </div>
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-map-marked-alt text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Alcance Nacional:</strong>
+              <span>Contamos con una red extensa que abarca toda la República Mexicana.</span>
+            </div>
+          </div>
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-users text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Atención Personalizada:</strong>
+              <span>Trabajamos estrechamente con cada cliente para entender y satisfacer sus necesidades únicas.</span>
+            </div>
+          </div>
+          <div class="flex items-center p-4 rounded-lg shadow-sm bg-gray-50">
+            <i class="w-8 h-8 fas fa-rocket text-sky-950"></i>
+            <div class="ml-4">
+              <strong class="block text-lg">Innovación Constante:</strong>
+              <span>Estamos siempre en búsqueda de nuevas soluciones para superar las expectativas de nuestros clientes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compromiso con la Excelencia -->
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <div class="flex items-center mb-4">
+          <h3 class="text-2xl font-semibold text-sky-950">
+            Compromiso con la Excelencia
+            <i class="w-12 h-12 ml-4 fas fa-star text-sky-950"></i>
+          </h3>
+        </div>
+        <p class="mb-4 text-base font-parkinsans">
+          Creemos que la excelencia no es solo un objetivo, sino una filosofía que guía todas nuestras operaciones. Nos enfocamos en brindar soluciones excepcionales que generen valor tangible para nuestros clientes.
+        </p>
+        <p class="mb-4 text-base font-parkinsans">
+          Nuestro equipo multidisciplinario trabaja con dedicación para identificar las mejores oportunidades de negocio, garantizar la satisfacción del cliente y construir relaciones a largo plazo basadas en la confianza y el respeto mutuo.
+        </p>
+        <ul class="list-none list-inside">
+  <li><i class="mr-2 fa fa-cogs text-sky-800"></i>Gestión eficiente de la cadena de suministro.</li>
+  <li><i class="mr-2 fa fa-user-graduate text-sky-800"></i>Capacitación constante de nuestro personal.</li>
+  <li><i class="mr-2 fa fa-microchip text-sky-800"></i>Implementación de tecnologías innovadoras.</li>
+  <li><i class="mr-2 fa fa-leaf text-sky-800"></i>Atención a la sostenibilidad y al impacto social.</li>
+</ul>
+
+      </div>
+
+      
     </div>
-    <ul class="mb-6 list-disc list-inside">
-     <li class="flex items-center mb-2 text-lg">
-      <strong>
-       Diversidad de Soluciones:
-      </strong>
-      <img alt="Icono de diversidad de soluciones" class="w-8 h-8 ml-2" height="30" src="https://storage.googleapis.com/a1aa/image/MbTg7JHuyDbqER2M47ref1eUfRiDsrgYjBkriUrXNhxalFTPB.jpg" width="30"/>
-      <span class="ml-2">
-       Desde productos frescos hasta servicios especializados, cubrimos todas las necesidades de nuestros clientes sin importar el sector.
-      </span>
-     </li>
-     <li class="flex items-center mb-2 text-lg">
-      <strong>
-       Compromiso con la Calidad:
-      </strong>
-      <img alt="Icono de compromiso con la calidad" class="w-8 h-8 ml-2" height="30" src="https://storage.googleapis.com/a1aa/image/eG8JSI80B3QqCqRG3gf7KgkxndpY8Hvc0zVJce6y51BmyipnA.jpg" width="30"/>
-      <span class="ml-2">
-       Nos aseguramos de que cada producto o servicio que exportamos cumpla con los estándares más estrictos, adaptados a las demandas internacionales.
-      </span>
-     </li>
-     <li class="flex items-center mb-2 text-lg">
-      <strong>
-       Transparencia Total:
-      </strong>
-      <img alt="Icono de transparencia total" class="w-8 h-8 ml-2" height="30" src="https://storage.googleapis.com/a1aa/image/pSOBsD6suI7eWyxcfA6JSf8110gfn3I9Mfcmkftm5fWEqsY6JA.jpg" width="30"/>
-      <span class="ml-2">
-       Proporcionamos reportes detallados, auditorías y actualizaciones constantes en todo momento.
-      </span>
-     </li>
-     <li class="flex items-center mb-2 text-lg">
-      <strong>
-       Confianza y Legalidad:
-      </strong>
-      <img alt="Icono de confianza y legalidad" class="w-8 h-8 ml-2" height="30" src="https://storage.googleapis.com/a1aa/image/FrWKX1WiRj5vGtrWuBZwi3VZRHTV9JEe3QfUpd49rLoOZx0TA.jpg" width="30"/>
-      <span class="ml-2">
-       Verificamos la legalidad y la certificación de cada proveedor en México, garantizando que los procesos sean totalmente legítimos.
-      </span>
-     </li>
-     <li class="flex items-center mb-2 text-lg">
-      <strong>
-       Cobertura Nacional:
-      </strong>
-      <img alt="Icono de cobertura nacional" class="w-8 h-8 ml-2" height="30" src="https://storage.googleapis.com/a1aa/image/GkCthIPv1pL5NJsRGfCROJQAzLlDeTc6tMXVniLxoHFLZx0TA.jpg" width="30"/>
-      <span class="ml-2">
-       Gracias a nuestra red de operaciones en todo México, podemos supervisar la calidad y asegurar que los productos lleguen a tiempo y sin complicaciones.
-      </span>
-     </li>
+    <div class="grid grid-cols-1 gap-6 mt-4 md:grid-cols-2 lg:grid-cols-3">
+  <!-- Card 1: Misión -->
+  <div class="p-6 bg-white border rounded-lg shadow-md">
+    <i class="mb-4 text-3xl fa fa-bullseye text-sky-800"></i>
+    <h3 class="mb-2 text-lg font-semibold">Nuestra Misión</h3>
+    <p class="text-gray-700">Ser el puente confiable entre los productos mexicanos y el mundo, ofreciendo calidad, innovación y sostenibilidad en cada operación.</p>
+  </div>
+
+  <!-- Card 2: Visión -->
+  <div class="p-6 bg-white border rounded-lg shadow-md">
+    <i class="mb-4 text-3xl fa fa-eye text-sky-800"></i>
+    <h3 class="mb-2 text-lg font-semibold">Nuestra Visión</h3>
+    <p class="text-gray-700">Convertirnos en líderes globales en exportación, integrando tecnología, logística y responsabilidad social para transformar mercados internacionales.</p>
+  </div>
+
+  <!-- Card 3: Calidad e Innovación -->
+  <div class="p-6 bg-white border rounded-lg shadow-md">
+    <i class="mb-4 text-3xl fa fa-lightbulb text-sky-800"></i>
+    <h3 class="mb-2 text-lg font-semibold">Calidad e Innovación</h3>
+    <ul class="text-gray-700 list-disc list-inside">
+      <li>Procesos certificados y sostenibles.</li>
+      <li>Aplicación de tecnología avanzada.</li>
+      <li>Monitoreo continuo para garantizar excelencia.</li>
     </ul>
-    <div class="flex justify-center mb-6">
-     <img alt="Ilustración de un contenedor de exportación con productos variados como frutas, artesanías, textiles, un ingeniero supervisando un proceso industrial, y un equipo de trabajo revisando documentación para asegurar la calidad." class="rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/UuASSxjqRS5bLNcKk46Zwuqaf5kGrCMh41oKSEpXbxJosY6JA.jpg" width="600"/>
-    </div>
-    <h3 class="mb-4 text-2xl font-semibold text-sky-950 font-poppins">
-     Nuestra Historia
-    </h3>
-    <p class="mb-6 text-lg">
-     Fundada hace más de 30 años, [Nombre de la Empresa] ha crecido de ser una pequeña empresa local a convertirse en un líder en la exportación de productos y servicios mexicanos. Nuestra trayectoria está marcada por un compromiso constante con la calidad y la satisfacción del cliente, lo que nos ha permitido establecer relaciones duraderas con empresas de todo el mundo.
-    </p>
-    <p class="mb-6 text-lg">
-     Desde nuestros inicios, hemos trabajado arduamente para expandir nuestra red de proveedores y mejorar nuestros procesos de supervisión y control de calidad. Hoy en día, contamos con una infraestructura robusta que nos permite manejar grandes volúmenes de exportación sin comprometer la calidad de nuestros productos y servicios.
-    </p>
-    <div class="flex justify-center mb-6">
-     <img alt="Imagen histórica de la empresa mostrando su evolución y crecimiento a lo largo de los años." class="rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/9mOl3r4LNfUNJyQwmrJasR0WT4jWh6Wf2AisILmupf5jyipnA.jpg" width="600"/>
-    </div>
-    <h3 class="mb-4 text-2xl font-semibold text-sky-950 font-poppins">
-     Nuestro Equipo
-    </h3>
-    <p class="mb-6 text-lg">
-     En [Nombre de la Empresa], creemos que nuestro equipo es nuestro mayor activo. Contamos con un grupo de profesionales altamente capacitados y comprometidos con nuestra misión de ofrecer soluciones integrales de alta calidad. Nuestro equipo incluye expertos en diversas áreas, desde la agricultura y la artesanía hasta la ingeniería y la logística.
-    </p>
-    <p class="mb-6 text-lg">
-     La diversidad de nuestro equipo nos permite abordar una amplia gama de desafíos y ofrecer soluciones personalizadas a nuestros clientes. Nos enorgullece contar con un equipo que comparte nuestros valores de calidad, transparencia y compromiso con la satisfacción del cliente.
-    </p>
-    <div class="flex justify-center mb-6">
-     <img alt="Imagen del equipo de trabajo de la empresa, mostrando la diversidad y profesionalismo de sus miembros." class="rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/Ltzqkr9UytLqOhRgjnaZ2Xkn8qmMQTV3Qdevd3fRxOfUyipnA.jpg" width="600"/>
-    </div>
-    <h3 class="mb-4 text-2xl font-semibold text-sky-950 font-poppins">
-     Testimonios de Clientes
-    </h3>
-    <p class="mb-6 text-lg">
-     A lo largo de los años, hemos tenido el privilegio de trabajar con una amplia variedad de clientes, desde pequeñas empresas hasta grandes corporaciones internacionales. Aquí hay algunos testimonios de nuestros clientes satisfechos:
-    </p>
-    <div class="p-6 mb-6 bg-gray-100 rounded-lg shadow-lg">
-     <p class="mb-4 text-lg italic">
-      "Trabajar con [Nombre de la Empresa] ha sido una experiencia increíble. Su compromiso con la calidad y la transparencia nos ha permitido expandir nuestro negocio con total confianza."
-     </p>
-     <p class="text-lg font-semibold">
-      - Cliente Satisfecho 1
-     </p>
-    </div>
-    <div class="p-6 mb-6 bg-gray-100 rounded-lg shadow-lg">
-     <p class="mb-4 text-lg italic">
-      "La diversidad de productos y servicios que ofrece [Nombre de la Empresa] es impresionante. Siempre encontramos lo que necesitamos y más."
-     </p>
-     <p class="text-lg font-semibold">
-      - Cliente Satisfecho 2
-     </p>
-    </div>
-    <div class="p-6 mb-6 bg-gray-100 rounded-lg shadow-lg">
-     <p class="mb-4 text-lg italic">
-      "La atención al detalle y la supervisión constante de [Nombre de la Empresa] nos ha permitido operar sin preocupaciones. Sabemos que estamos en buenas manos."
-     </p>
-     <p class="text-lg font-semibold">
-      - Cliente Satisfecho 3
-     </p>
-    </div>
-    <div class="flex justify-center mb-6">
-     <img alt="Imagen de clientes satisfechos mostrando su agradecimiento y satisfacción con los servicios de la empresa." class="rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/U8Amv79BrpIULhYP0euritx3U0R2v8ojvH36r0rfZTeqyipnA.jpg" width="600"/>
-    </div>
-   </div>
-  </section>
+  </div>
+
+  <!-- Card 4: Logística Personalizada -->
+  <div class="p-6 bg-white border rounded-lg shadow-md">
+    <i class="mb-4 text-3xl fa fa-truck text-sky-800"></i>
+    <h3 class="mb-2 text-lg font-semibold">Logística Personalizada</h3>
+    <ul class="text-gray-700 list-disc list-inside">
+      <li>Rutas optimizadas para mayor eficiencia.</li>
+      <li>Seguimiento en tiempo real de envíos.</li>
+      <li>Asesoramiento en normativas y documentación.</li>
+    </ul>
+  </div>
+
+  <!-- Card 5: Red Global -->
+  <div class="p-6 bg-white border rounded-lg shadow-md">
+  <i class="mb-4 text-3xl fa fa-tags text-sky-800"></i>
+  <h3 class="mb-2 text-lg font-semibold">Costos Más Bajos del Mercado</h3>
+  <ul class="text-gray-700 list-disc list-inside">
+    <li>Precios competitivos en todos nuestros servicios.</li>
+    <li>Optimización de recursos para reducir costos operativos.</li>
+    <li>Negociaciones estratégicas con proveedores.</li>
+  </ul>
+</div>
+
+
+  <!-- Card 6: Compromiso Sostenible -->
+  <div class="p-6 bg-white border rounded-lg shadow-md">
+    <i class="mb-4 text-3xl fa fa-leaf text-sky-800"></i>
+    <h3 class="mb-2 text-lg font-semibold">Compromiso Sostenible</h3>
+    <ul class="text-gray-700 list-disc list-inside">
+      <li>Prácticas responsables con el medio ambiente.</li>
+      <li>Proyectos de impacto social positivo.</li>
+      <li>Minimización de la huella ecológica.</li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
 </template>
 
 <script lang="ts" setup>
