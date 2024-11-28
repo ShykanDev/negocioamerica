@@ -68,7 +68,12 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: () => import('../views/History/ContactView.vue'),
-    }
+    },
+    // fallback to main if path not found
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: { name: 'home' },
+    },
   ],
   scrollBehavior() {
     return { top: 0 }
