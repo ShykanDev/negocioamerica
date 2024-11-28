@@ -37,7 +37,7 @@
         </div>
     </section>
 
-    <section class="py-16 bg-gray-100">
+    <section class="py-16 bg-white">
     <div class="container px-4 mx-auto text-left">
         <h2 class="mb-8 text-3xl font-bold text-sky-950">¿Por qué elegirnos?</h2>
 

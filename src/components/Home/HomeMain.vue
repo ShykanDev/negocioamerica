@@ -6,7 +6,7 @@
   <div class="container relative z-10 flex flex-col items-center h-full py-4 mx-auto text-center text-white">
   <SliderImages />
 
-    <h1 class="mb-6 text-6xl font-extrabold leading-tight animate-fade">
+    <h1 class="mb-6 text-5xl md:text-6xl  font-extrabold leading-tight animate-fade select-none">
       Somos sus ojos en las importaciones de México
     </h1>
     <p class="max-w-3xl mb-10 text-lg font-semibold animate-flip-up">
@@ -15,7 +15,7 @@
     <p class="max-w-3xl mb-10 text-lg font-semibold animate-flip-up">
         Nosotros le ayudamos a asegurar la calidad y seguridad de sus productos, así como a cumplir con los estandares internacionales.
     </p>
-    <div class="space-x-4">
+    <div class="flex md:flex-row gap-3 flex-col">
       <a class="px-6 py-3 font-medium transition bg-white rounded-lg font-poppins text-slate-800 hover:bg-slate-300" href="#servicios">
         Descubre Nuestros Servicios
       </a>

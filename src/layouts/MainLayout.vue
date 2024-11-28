@@ -4,11 +4,11 @@
   <section class="w-full h-full bg-white shadow">
     <img src="../assets/shield.svg" class="hidden md:block absolute w-10 top-4 left-4" alt="">
     <!-- Navigation links -->
-    <article class="flex items-center justify-center w-full h-full px-4 py-3 space-x-2 sm:space-x-3 md:space-x-6 bg-white">
+    <article class="flex items-center justify-center w-full h-full px-4 py-3 md:py-5 space-x-2 sm:space-x-3 md:space-x-6 bg-white">
   <!-- Título con fondo rojo -->
   <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
 
-  <div class="flex items-center h-full md:space-x-2 space-x-0 select-none  text-xs sm:text-sm md:text-base font-medium">
+  <div class="flex items-center h-full md:space-x-2 space-x-0 select-none z-50  text-xs sm:text-sm md:text-base font-medium">
     <!-- Loop through navigation items -->
     <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
       
@@ -42,7 +42,8 @@
 </article>
 
   </section>
-  <small  class="block py-5 text-center text-white bg-slate-800 font-parkinsans">
+  <small  class="block py-5 relative text-center text-white bg-slate-800 font-parkinsans">
+    <img src="../assets/shieldWhite.svg" class="absolute w-6 bottom-2 md:hidden left-0 select-none" alt="">
   <div class="flex justify-center space-x-4 flex-wrap select-none text-xs sm:text-sm">
   <span class="flex items-center">
     <i class="fas fa-map-marker-alt text-sky-200"></i>
@@ -77,7 +78,7 @@
 </header>
 
 
-    <main class="min-h-screen mt-28">
+    <main class="min-h-screen mt-28  md:mt-32">
       <slot name="main"> </slot>
     </main>
     <footer v-if="route.name !== 'contact'" id="contact" class="py-10 text-gray-700 bg-slate-50 font-poppins">
