@@ -2,75 +2,80 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
   <section class="w-full h-full bg-white shadow">
-    <img src="../assets/shield.svg" class="absolute w-10 top-5 left-4" alt="">
+    <img src="../assets/shield.svg" class="hidden md:block absolute w-10 top-4 left-4" alt="">
     <!-- Navigation links -->
-    <article class="flex items-center justify-center w-full h-full px-10 py-5 space-x-20 bg-white">
-      <!-- Título con fondo rojo -->
-      <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
+    <article class="flex items-center justify-center w-full h-full px-4 py-3 space-x-2 sm:space-x-3 md:space-x-6 bg-white">
+  <!-- Título con fondo rojo -->
+  <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
+
+  <div class="flex items-center h-full md:space-x-2 space-x-0 select-none  text-xs sm:text-sm md:text-base font-medium">
+    <!-- Loop through navigation items -->
+    <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
       
-      <div class="flex items-center h-full space-x-6 text-base font-medium">
-        <!-- Loop through navigation items -->
-        <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
-          
-          <!-- Contenedor del enlace y submenú -->
-          <div class="relative w-full h-full group">
-            <!-- Reemplazado RouterLink por un <h3> -->
-              <h3
-  :class="{ 'border-b-white border-b-2 h-full': route.name === item.name }"
-  class="flex items-center justify-center w-full h-full px-4 py-2 cursor-pointer text-sky-950 hover:border-b-black hover:border-b-2"
->
-  {{ item.title }}
-  <i class="ml-1 scale-75 fas fa-chevron-down"></i>
-</h3>
+      <!-- Contenedor del enlace y submenú -->
+      <div class="relative w-full h-full group">
+        <!-- Reemplazado RouterLink por un <h3> -->
+        <h3
+          :class="{ 'border-b-white border-b-2 h-full': route.name === item.name }"
+          class="flex items-center justify-center w-full h-full px-1 md:px-3 py-1 cursor-pointer select-none text-sky-950 hover:border-b-black hover:border-b-2 text-xs sm:text-sm md:text-base"
+        >
+          {{ item.title }}
+          <i class="ml-1 scale-50 fas fa-chevron-down"></i>
+        </h3>
 
-
-            <!-- Submenu for each item -->
-            <div
-              class="absolute left-0 hidden w-48 p-3 mt-0 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:block group-hover:opacity-100 top-full"
+        <!-- Submenu for each item -->
+        <div
+          class="absolute left-0 hidden w-40 p-2 mt-0 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:block group-hover:opacity-100 top-full"
+        >
+          <div v-for="(subItem, subIndex) in item.subLinks" :key="subIndex">
+            <RouterLink
+              :to="subItem.route"
+              class="block px-3 py-1 text-xs hover:bg-gray-100"
             >
-              <div v-for="(subItem, subIndex) in item.subLinks" :key="subIndex">
-                <RouterLink
-                  :to="subItem.route"
-                  class="block px-4 py-2 text-sm hover:bg-gray-100"
-                >
-                  {{ subItem.title }}
-                </RouterLink>
-              </div>
-            </div>
+              {{ subItem.title }}
+            </RouterLink>
           </div>
         </div>
       </div>
-    </article>
-  </section>
-  <small class="block py-2 text-center text-white bg-slate-800 font-parkinsans">
-  <div class="flex justify-center space-x-4">
-    <span>
-      <i class="fas fa-map-marker-alt text-sky-200"></i>
-      <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="ml-1 text-white hover:text-cyan-600" target="_blank">
-        Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
-      </a>
-    </span>
-    <span>
-      <i class="fas fa-phone text-sky-200"></i>
-      <a href="tel:+525563950178" class="ml-1 text-white hover:text-cyan-600">+52 55 6395 0178</a>
-    </span>
-    <span>
-      <i class="fas fa-phone text-sky-200"></i>
-      <a href="tel:+525563950179" class="ml-1 text-white hover:text-cyan-600">+52 55 6395 0179</a>
-    </span>
-    <span>
-      <i class="fas fa-envelope text-sky-200"></i>
-      <a href="mailto:informes@prasadam.mx" class="ml-1 text-white hover:text-cyan-600">informes@prasadam.mx</a>
-    </span>
-    <span>
-      <i class="text-green-500 fab fa-whatsapp"></i>
-      <a href="https://wa.me/525562516687" class="ml-1 text-white hover:text-green-500">+52 5562516687</a>
-    </span>
+    </div>
   </div>
+</article>
+
+  </section>
+  <small  class="block py-5 text-center text-white bg-slate-800 font-parkinsans">
+  <div class="flex justify-center space-x-4 flex-wrap select-none text-xs sm:text-sm">
+  <span class="flex items-center">
+    <i class="fas fa-map-marker-alt text-sky-200"></i>
+  </span>
+  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class=" md:hidden md:items-center text-white hover:text-cyan-600 text-xs" target="_blank">
+    Dirección
+  </a>
+  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="ml-1 hidden md:flex md:items-center text-white hover:text-cyan-600 text-xs" target="_blank">
+    Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
+  </a>
+  <span class="flex items-center">
+    <i class="fas fa-phone text-sky-200"></i>
+    <a href="tel:+525563950178" class="ml-1 text-white hover:text-cyan-600">+52 55 6395 0178</a>
+  </span>
+  <span class="flex items-center">
+    <i class="fas fa-phone text-sky-200"></i>
+    <a href="tel:+525563950179" class="ml-1 text-white hover:text-cyan-600">+52 55 6395 0179</a>
+  </span>
+  <span class="flex items-center">
+    <i class="fas fa-envelope text-sky-200"></i>
+    <a href="mailto:informes@prasadam.mx" class="ml-1 text-white hover:text-cyan-600">informes@prasadam.mx</a>
+  </span>
+  <span class="flex items-center">
+    <i class="text-green-500 fab fa-whatsapp"></i>
+    <a href="https://wa.me/525562516687" class="ml-1 text-white hover:text-green-500">+52 5562516687</a>
+  </span>
+</div>
+
 </small>
 
 
 </header>
+
 
     <main class="min-h-screen mt-28">
       <slot name="main"> </slot>
