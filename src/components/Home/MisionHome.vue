@@ -189,7 +189,12 @@
 </template>
 
 <script lang="ts" setup>
-
+import { onMounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+onMounted(() => {
+  AOS.init();
+})
 </script>
 
 <style scoped>

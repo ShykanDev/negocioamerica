@@ -2,13 +2,13 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
   <section class="w-full h-full bg-white shadow">
-    <img src="../assets/shield.svg" class="hidden md:block absolute w-10 top-4 left-4" alt="">
+    <img src="../assets/shield.svg" class="absolute hidden w-10 md:block top-4 left-4" alt="">
     <!-- Navigation links -->
-    <article class="flex items-center justify-center w-full h-full px-4 py-3 md:py-5 space-x-2 sm:space-x-3 md:space-x-6 bg-white">
+    <article class="flex items-center justify-center w-full h-full px-4 py-3 space-x-2 bg-white md:py-5 sm:space-x-3 md:space-x-6">
   <!-- Título con fondo rojo -->
   <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
 
-  <div class="flex items-center h-full md:space-x-2 space-x-0 select-none z-50  text-xs sm:text-sm md:text-base font-medium">
+  <div class="z-50 flex items-center h-full space-x-0 text-xs font-medium select-none md:space-x-2 sm:text-sm md:text-base">
     <!-- Loop through navigation items -->
     <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
       
@@ -17,7 +17,7 @@
         <!-- Reemplazado RouterLink por un <h3> -->
         <h3
           :class="{ 'border-b-white border-b-2 h-full': route.name === item.name }"
-          class="flex items-center justify-center w-full h-full px-1 md:px-3 py-1 cursor-pointer select-none text-sky-950 hover:border-b-black hover:border-b-2 text-xs sm:text-sm md:text-base"
+          class="flex items-center justify-center w-full h-full px-1 py-1 text-xs cursor-pointer select-none md:px-3 text-sky-950 hover:border-b-black hover:border-b-2 sm:text-sm md:text-base"
         >
           {{ item.title }}
           <i class="ml-1 scale-50 fas fa-chevron-down"></i>
@@ -29,7 +29,7 @@
         >
           <div v-for="(subItem, subIndex) in item.subLinks" :key="subIndex">
             <RouterLink
-              :to="subItem.route"
+              :to="{name: subItem.name}"
               class="block px-3 py-1 text-xs hover:bg-gray-100"
             >
               {{ subItem.title }}
@@ -42,16 +42,16 @@
 </article>
 
   </section>
-  <small  class="block py-5 relative text-center text-white bg-slate-800 font-parkinsans">
-    <img src="../assets/shieldWhite.svg" class="absolute w-6 bottom-2 md:hidden left-0 select-none" alt="">
-  <div class="flex justify-center space-x-4 flex-wrap select-none text-xs sm:text-sm">
+  <small  class="relative block py-5 text-center text-white bg-slate-800 font-parkinsans">
+    <img src="../assets/shieldWhite.svg" class="absolute left-0 w-6 select-none bottom-2 md:hidden" alt="">
+  <div class="flex flex-wrap justify-center space-x-4 text-xs select-none sm:text-sm">
   <span class="flex items-center">
     <i class="fas fa-map-marker-alt text-sky-200"></i>
   </span>
-  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class=" md:hidden md:items-center text-white hover:text-cyan-600 text-xs" target="_blank">
+  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="text-xs text-white md:hidden md:items-center hover:text-cyan-600" target="_blank">
     Dirección
   </a>
-  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="ml-1 hidden md:flex md:items-center text-white hover:text-cyan-600 text-xs" target="_blank">
+  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="hidden ml-1 text-xs text-white md:flex md:items-center hover:text-cyan-600" target="_blank">
     Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
   </a>
   <span class="flex items-center">
@@ -78,7 +78,7 @@
 </header>
 
 
-    <main class="min-h-screen mt-28  md:mt-32">
+    <main class="min-h-screen mt-28 md:mt-32">
       <slot name="main"> </slot>
     </main>
     <footer v-if="route.name !== 'contact'" id="contact" class="py-10 text-gray-700 bg-slate-50 font-poppins">
@@ -180,9 +180,9 @@ const navItems = [
     name: 'home',
     route: '', // Ruta esperada: '/home'
     subLinks: [
-      { title: 'Visión General', route: '/' }, // Ruta esperada: '/home/vision-general'
-      { title: 'Nuestra Misión', route: 'mision' }, // Ruta esperada: '/home/mision'
-      { title: 'Proceso de Supervisión', route: 'servicios-supervision' }, // Ruta esperada: '/home/proceso-supervision'
+      { title: 'Visión General', route: '/', name:'home' }, // Ruta esperada: '/home/vision-general'
+      { title: 'Nuestra Misión', route: 'mision', name:'mision' }, // Ruta esperada: '/home/mision'
+      { title: 'Proceso de Supervisión', route: 'servicios-supervision', name:'supervision' }, // Ruta esperada: '/home/proceso-supervision'
     ],
   },
   {
@@ -190,8 +190,8 @@ const navItems = [
     name: 'spaOne',
     route: '', // Ruta esperada: '/nosotros'
     subLinks: [
-      { title: 'Equipo de Supervisión', route: '/equipos-supervision' }, // Ruta esperada: '/nosotros/equipo-supervision'
-      { title: 'Expansión Internacional', route: '/international/expansion' }, // Ruta esperada: '/nosotros/relaciones-internacionales'
+      { title: 'Equipo de Supervisión', route: '/equipos-supervision', name:'supervision-teams' }, // Ruta esperada: '/nosotros/equipo-supervision'
+      { title: 'Expansión Internacional', route: '/international/expansion', name:'international-expansion' }, // Ruta esperada: '/nosotros/relaciones-internacionales'
     ],
   },
   {
@@ -199,7 +199,7 @@ const navItems = [
     name: 'spaTwo',
     route: '', // Ruta esperada: '/servicios'
     subLinks: [
-      { title: 'Supervisión y Verificación de Proveedores', route: '/services/supervision' }, // Ruta esperada: '/servicios/supervision-verificacion'
+      { title: 'Supervisión y Verificación de Proveedores', route: '/services/supervision', name:'internation' }, // Ruta esperada: '/servicios/supervision-verificacion'
       // { title: 'Auditorías de Calidad y Cumplimiento', route: '/supervision/services' },
       // { title: 'Documentación y Reportes Transparentes', route: '/supervision/services' }, 
     ],
@@ -209,7 +209,7 @@ const navItems = [
     name: 'spaThree',
     route: '', 
     subLinks: [
-      { title: 'Comentarios de nuestros clientes', route: '/commments/users' }, // Ruta esperada: '/beneficios/confianza-seguridad'
+      { title: 'Comentarios de nuestros clientes', route: '/commments/users', name:'comments' }, // Ruta esperada: '/beneficios/confianza-seguridad'
   
     ],
   },
@@ -218,8 +218,8 @@ const navItems = [
     name: 'informacion',
     route: '', 
     subLinks: [
-      { title: 'Historia de la Empresa', route: '/history/us' }, // Ruta esperada: '/informacion/historia'
-      { title: 'Contacto', route: '/contact' }, // Ruta esperada: '/informacion/contacto'
+      { title: 'Historia de la Empresa', route: '/history/us', name:'history' }, // Ruta esperada: '/informacion/historia'
+      { title: 'Contacto', route: '/contact', name:'contact' }, // Ruta esperada: '/informacion/contacto'
     ],
   }
 ]

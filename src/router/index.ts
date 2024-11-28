@@ -56,7 +56,7 @@ const router = createRouter({
     },
     {
       path:'/commments/users',
-      name:'commments',
+      name:'comments',
       component: () => import('../views/CommentsView.vue'),
     },
     {
