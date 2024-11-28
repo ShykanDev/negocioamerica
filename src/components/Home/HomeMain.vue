@@ -1,12 +1,12 @@
 <template>
     <!-- Hero Section -->
 <!-- Hero Section -->
-<section class="relative h-screen bg-center bg-cover" style="background-image: url('https://storage.googleapis.com/a1aa/image/wRKTDXetq8UEbiDi4sMOoqfpIGAguCRjYSRnAAwaKp73sw0TA.jpg');">
+<section class="relative min-h-screen bg-center bg-cover" style="background-image: url('https://storage.googleapis.com/a1aa/image/wRKTDXetq8UEbiDi4sMOoqfpIGAguCRjYSRnAAwaKp73sw0TA.jpg');">
   <div class="absolute inset-0 bg-black opacity-60"></div>
   <div class="container relative z-10 flex flex-col items-center h-full py-4 mx-auto text-center text-white">
   <SliderImages />
 
-    <h1 class="mb-6 text-5xl md:text-6xl  font-extrabold leading-tight animate-fade select-none">
+    <h1 class="mb-6 text-5xl font-extrabold leading-tight select-none md:text-6xl animate-fade">
       Somos sus ojos en las importaciones de México
     </h1>
     <p class="max-w-3xl mb-10 text-lg font-semibold animate-flip-up">
@@ -15,7 +15,7 @@
     <p class="max-w-3xl mb-10 text-lg font-semibold animate-flip-up">
         Nosotros le ayudamos a asegurar la calidad y seguridad de sus productos, así como a cumplir con los estandares internacionales.
     </p>
-    <div class="flex md:flex-row gap-3 flex-col">
+    <div class="flex flex-col gap-3 md:flex-row">
       <a class="px-6 py-3 font-medium transition bg-white rounded-lg font-poppins text-slate-800 hover:bg-slate-300" href="#servicios">
         Descubre Nuestros Servicios
       </a>
