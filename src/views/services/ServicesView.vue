@@ -57,7 +57,7 @@
      <h3 class="mb-2 text-xl font-semibold">
       Certificado de Calidad
      </h3>
-     <img alt="Hoja de papel con un certificado" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/guObTgEPiYKjJ1k5UuscQpt4inxyOiSsYmeswDPIs3SJKp6JA.jpg" width="300"/>
+     <img alt="Hoja de papel con un certificado" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/GuaRlVBx8u6ICNuXhAMKxO0VTqfe4K8TECU1cGdm1zgt5a1TA.jpg" width="300"/>
      <p class="mt-2 text-gray-600">
       Validamos las certificaciones de los proveedores para asegurar el cumplimiento de los estándares legales y regulatorios. Este proceso es esencial para mantener la integridad y la calidad de nuestros productos y servicios.
      </p>
@@ -91,7 +91,7 @@
      <h3 class="mb-2 text-xl font-semibold">
       Informe de Calidad
      </h3>
-     <img alt="Persona revisando un informe de calidad" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/eW820Q00MjVAEKirdNlle74HbpHoNzw0ht73rKeVB6MTrkqnA.jpg" width="300"/>
+     <img alt="Persona revisando un informe de calidad" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/IfpKXKygZcScaKhKOYmGlCFMyWoRw0WDv9jEgks1HEZ6gt6JA.jpg" width="300"/>
      <p class="mt-2 text-gray-600">
       Generamos informes claros y precisos, enviados regularmente al cliente. Estos informes detallan todos los aspectos de la calidad del producto, asegurando que se cumplan los estándares establecidos.
      </p>
@@ -100,7 +100,7 @@
      <h3 class="mb-2 text-xl font-semibold">
       Informe de Cantidad
      </h3>
-     <img alt="Persona revisando un informe de cantidad" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/wKUz9dfexbnOdkEKb0hZLn9rdtUOvDBBgDjiSrY2fFMRrkqnA.jpg" width="300"/>
+     <img alt="Persona revisando un informe de cantidad" class="rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/7CW74cow3IoTGhwCpqbnVD9r0tPhIaTVNHS4xahgacptvW9E.jpg" width="300"/>
      <p class="mt-2 text-gray-600">
       Reportes detallados que reflejan la cantidad y calidad de los productos. Estos informes son esenciales para el control de inventarios y la planificación de la producción.
      </p>
@@ -300,12 +300,9 @@
     </ul>
    </div>
    <div class="flex mb-12 space-x-4">
-    <a class="px-4 py-2 text-white rounded bg-sky-950 hover:bg-sky-900" href="#">
-     Solicitar Auditoría Ahora
-    </a>
-    <a class="px-4 py-2 text-gray-900 bg-gray-300 rounded hover:bg-gray-400" href="#">
-     Conocer más sobre nuestros servicios de auditoría
-    </a>
+
+    <RouterLink to="/contact" class="px-4 py-2 text-white rounded bg-sky-950 hover:bg-sky-900">Solicitar Reporte Ahora</RouterLink>
+
    </div>
    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
     <div data-aos="flip-left" class="p-6 bg-white rounded-lg shadow">
@@ -528,12 +525,10 @@
     </div>
    </section>
    <section class="text-center">
-    <button class="px-6 py-3 mr-4 text-lg font-bold text-white bg-green-500 rounded-lg">
-     Solicitar Reporte Ahora
-    </button>
-    <button class="px-6 py-3 text-lg font-bold text-white bg-blue-500 rounded-lg">
-     Conocer Más
-    </button>
+    <!-- router link -->
+     <RouterLink to="/contact" class="px-6 py-3 mr-4 font-medium text-white transition bg-blue-600 rounded-lg hover:bg-blue-800">Contactar con nosotros</RouterLink>
+    
+
    </section>
   </section>
         </article>

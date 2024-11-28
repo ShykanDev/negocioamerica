@@ -109,12 +109,9 @@
     </div>
    </div>
    <div class="mb-10 text-center">
-    <button class="px-6 py-3 mr-4 text-lg font-bold text-white roundedcyanlg bg-slate-500">
+    <RouterLink to="/contact" class="px-6 py-3 mr-4 text-lg font-bold text-white roundedcyanlg bg-slate-500">
      Solicitar Supervisión Ahora
-    </button>
-    <button class="px-6 py-3 text-lg font-bold text-white bg-blue-500 rounded-lg">
-     Conozca más sobre nuestros servicios
-    </button>
+    </RouterLink>
    </div>
   </section>
   <section class="container py-10 mx-auto">

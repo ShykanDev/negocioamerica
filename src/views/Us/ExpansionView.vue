@@ -2,7 +2,7 @@
     <MainLayout>
       <template #main>
         <div class="">
-        <section class="relative h-screen bg-center bg-cover" style="background-image: url('https://pouch.jumpshare.com/preview/ks9Xl-dho4V1oNdfeLQJmqWAJrY4VzsKIco4S5AOpwBoGqyX56N_ePw78O3n44SLkWHNkaTkRb4pz9zusB9CJGAVrXMxjEfjZEYnDsfRClU');">
+        <section class="relative h-screen bg-center bg-cover animate-fade" style="background-image: url('https://i.ibb.co/9bdbZWj/import-jpg.jpg');">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
             <h1 class="text-4xl font-bold md:text-6xl animate-fade-up">Conectamos México con el Mundo</h1>
@@ -94,11 +94,6 @@
             <p class="mb-4 font-jost">Si por alguna razón no está satisfecho con el proveedor actual, ofrecemos alternativas de confianza para asegurar que su empresa siempre obtenga lo mejor del mercado.</p>
         </div>
 
-        <!-- Llamados a la Acción -->
-        <div class="mt-8">
-            <a href="#" class="px-4 py-2 text-white transition duration-300 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600">Descubra más</a>
-            <a href="#" class="px-4 py-2 ml-4 text-white transition duration-300 bg-green-500 rounded-lg shadow-lg hover:bg-green-600">Contáctenos</a>
-        </div>
     </div>
 </section>
 

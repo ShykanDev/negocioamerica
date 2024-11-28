@@ -42,29 +42,29 @@
       </div>
     </article>
   </section>
-  <small class="block py-2 text-center text-gray-700 bg-gray-100">
+  <small class="block py-2 text-center text-white bg-slate-800 font-parkinsans">
   <div class="flex justify-center space-x-4">
     <span>
-      <i class="fas fa-map-marker-alt"></i>
-      <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="text-gray-700 hover:text-green-500" target="_blank">
+      <i class="fas fa-map-marker-alt text-sky-200"></i>
+      <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="ml-1 text-white hover:text-cyan-600" target="_blank">
         Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
       </a>
     </span>
     <span>
-      <i class="fas fa-phone"></i>
-      <a href="tel:+525563950178" class="text-gray-700 hover:text-green-500">+52 55 6395 0178</a>
+      <i class="fas fa-phone text-sky-200"></i>
+      <a href="tel:+525563950178" class="ml-1 text-white hover:text-cyan-600">+52 55 6395 0178</a>
     </span>
     <span>
-      <i class="fas fa-phone"></i>
-      <a href="tel:+525563950179" class="text-gray-700 hover:text-green-500">+52 55 6395 0179</a>
+      <i class="fas fa-phone text-sky-200"></i>
+      <a href="tel:+525563950179" class="ml-1 text-white hover:text-cyan-600">+52 55 6395 0179</a>
     </span>
     <span>
-      <i class="fas fa-envelope"></i>
-      <a href="mailto:informes@prasadam.mx" class="text-gray-700 hover:text-green-500">informes@prasadam.mx</a>
+      <i class="fas fa-envelope text-sky-200"></i>
+      <a href="mailto:informes@prasadam.mx" class="ml-1 text-white hover:text-cyan-600">informes@prasadam.mx</a>
     </span>
     <span>
-      <i class="fab fa-whatsapp"></i>
-      <a href="https://wa.me/525562516687" class="text-gray-700 hover:text-green-500">+52 5562516687</a>
+      <i class="text-green-500 fab fa-whatsapp"></i>
+      <a href="https://wa.me/525562516687" class="ml-1 text-white hover:text-green-500">+52 5562516687</a>
     </span>
   </div>
 </small>
@@ -75,7 +75,7 @@
     <main class="min-h-screen mt-28">
       <slot name="main"> </slot>
     </main>
-    <footer class="py-10 text-gray-700 bg-slate-50">
+    <footer v-if="route.name !== 'contact'" id="contact" class="py-10 text-gray-700 bg-slate-50 font-poppins">
   <div class="container mx-auto">
     <!-- Título -->
     <h2 class="mb-8 text-3xl font-bold text-center">Contacto</h2>

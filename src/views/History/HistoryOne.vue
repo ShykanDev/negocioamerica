@@ -60,8 +60,7 @@
         </section>
 
         <section class="text-center">
-            <a href="#" class="px-6 py-3 text-white transition duration-300 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600">Contáctenos</a>
-            <a href="#" class="px-6 py-3 ml-4 text-white transition duration-300 bg-gray-500 rounded-lg shadow-lg hover:bg-gray-600">Conozca más</a>
+            <RouterLink to="/contact" class="px-6 py-3 text-white transition duration-300 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600">Contáctenos</RouterLink>
         </section>
     </section>
         </template>

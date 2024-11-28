@@ -7,21 +7,21 @@
   <SliderImages />
 
     <h1 class="mb-6 text-6xl font-extrabold leading-tight animate-fade">
-      Somos tus ojos en las importaciones de México
+      Somos sus ojos en las importaciones de México
     </h1>
     <p class="max-w-3xl mb-10 text-lg font-semibold animate-flip-up">
-      Somos tu aliado estratégico en supervisión, auditoría y certificación de productos mexicanos. Impulsa tu éxito internacional con un equipo confiable y profesional.
+      Somos su aliado estratégico en supervisión, auditoría y certificación de productos mexicanos. Impulsa su éxito internacional con un equipo confiable y profesional.
     </p>
     <p class="max-w-3xl mb-10 text-lg font-semibold animate-flip-up">
-        Nosotros te ayudamos a asegurar la calidad y seguridad de tus productos, así como a cumplir con los estandares internacionales.
+        Nosotros le ayudamos a asegurar la calidad y seguridad de sus productos, así como a cumplir con los estandares internacionales.
     </p>
     <div class="space-x-4">
       <a class="px-6 py-3 font-medium transition bg-white rounded-lg font-poppins text-slate-800 hover:bg-slate-300" href="#servicios">
         Descubre Nuestros Servicios
       </a>
-      <a class="px-6 py-3 font-medium text-white transition bg-blue-600 rounded-lg hover:bg-blue-800" href="#contacto">
-        Contáctanos Hoy
-      </a>
+
+      <!-- router link -->
+       <RouterLink to="/contact" class="px-6 py-3 font-medium text-white transition bg-blue-600 rounded-lg hover:bg-blue-800">Contáctenos Hoy</RouterLink>
     </div>
   </div>
 </section>
@@ -123,7 +123,7 @@
   </div>
     </div>
     </section>
-<div id="servicios" class="pt-9"></div>
+<div id="servicios" class="pt-16"></div>
     <section class="py-12 bg-white font-roboto">
         <div  class="container px-4 mx-auto " >
           <div data-aos="fade-up">
@@ -237,7 +237,7 @@
             Supervisión personalizada
           </h3>
           <p class="text-sm text-gray-600">
-            Cada detalle cuidado, adaptado a tus necesidades.
+            Cada detalle cuidado, adaptado a sus necesidades.
           </p>
           <ul class="mt-2 text-sm text-gray-600">
             <li>Atención individualizada</li>
@@ -335,7 +335,7 @@
             Estrategias de marketing
           </h3>
           <p class="text-sm text-gray-600">
-            Desarrollamos estrategias de marketing para impulsar tus productos.
+            Desarrollamos estrategias de marketing para impulsar sus productos.
           </p>
           <ul class="mt-2 text-sm text-gray-600">
             <li>Campañas efectivas</li>
@@ -391,7 +391,7 @@
             Comercio electrónico
           </h3>
           <p class="text-sm text-gray-600">
-            Impulsamos tu negocio en el comercio electrónico global.
+            Impulsamos su negocio en el comercio electrónico global.
           </p>
           <ul class="mt-2 text-sm text-gray-600">
             <li>Plataformas de venta</li>
@@ -405,7 +405,7 @@
             Financiamiento
           </h3>
           <p class="text-sm text-gray-600">
-            Ofrecemos soluciones de financiamiento para tus importaciones.
+            Ofrecemos soluciones de financiamiento para sus importaciones.
           </p>
           <ul class="mt-2 text-sm text-gray-600">
             <li>Créditos comerciales</li>
@@ -470,7 +470,7 @@
       </h2>
     </div>
 <p class="mx-auto mb-12 text-lg ">
-  Adaptamos nuestra oferta a las necesidades únicas de tu empresa. Como intermediarios, te conectamos con los mejores proveedores mexicanos, asegurando productos y servicios que cumplen con los más altos estándares de calidad internacional. Ya sea que busques soluciones innovadoras, productos tradicionales o servicios especializados, nuestro enfoque personalizado garantiza que encuentres lo que tu negocio necesita.
+  Adaptamos nuestra oferta a las necesidades únicas de su empresa. Como intermediarios, te conectamos con los mejores proveedores mexicanos, asegurando productos y servicios que cumplen con los más altos estándares de calidad internacional. Ya sea que busques soluciones innovadoras, productos tradicionales o servicios especializados, nuestro enfoque personalizado garantiza que encuentres lo que su negocio necesita.
 </p>
 
 <p class="inline mb-6 text-lg text-gray-900 border-b-2 font-roboto border-b-sky-900">
@@ -482,13 +482,13 @@
     <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Conexión con proveedores mexicanos de confianza, asegurando calidad y fiabilidad en cada producto o servicio.
   </li>
   <li class="flex items-start">
-    <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Asesoramiento personalizado para encontrar la solución ideal para las necesidades de tu empresa.
+    <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Asesoramiento personalizado para encontrar la solución ideal para las necesidades de su empresa.
   </li>
   <li class="flex items-start">
     <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Garantía de cumplimiento con los estándares internacionales de calidad y regulaciones comerciales.
   </li>
   <li class="flex items-start">
-    <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Acceso a una extensa gama de productos, desde alimentos hasta productos tecnológicos y manufacturados.
+    <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Acceso a una extensa gama de productos, desde alimentos hasta productos tecnológicos y manufacsurados.
   </li>
   <li class="flex items-start">
     <i class="mt-1 mr-3 fas fa-check-circle text-sky-950"></i> Gestión eficiente y sin complicaciones en el proceso de importación, facilitando el acceso a productos mexicanos.
@@ -513,7 +513,7 @@
       Sector Agrícola
     </h3>
     <p class="text-sm text-gray-600">
-      Ofrecemos productos agrícolas de alta calidad, desde frutas y vegetales hasta productos alimenticios. Conectamos tu empresa con los mejores productores de México, quienes emplean prácticas sostenibles para garantizar frescura y sabor.
+      Ofrecemos productos agrícolas de alta calidad, desde frutas y vegetales hasta productos alimenticios. Conectamos su empresa con los mejores productores de México, quienes emplean prácticas sostenibles para garantizar frescura y sabor.
     </p>
     <div class="mt-4">
       <i class="ml-2 fas fa-apple-alt text-sky-950"></i>
@@ -529,7 +529,7 @@
       Sector Textil y Artesanal
     </h3>
     <p class="text-sm text-gray-600">
-      Proveemos textiles y artesanías mexicanas auténticas, elaboradas por artesanos locales con técnicas tradicionales. Podemos conectar tu empresa con proveedores de piezas únicas que reflejan la rica herencia cultural de México.
+      Proveemos textiles y artesanías mexicanas auténticas, elaboradas por artesanos locales con técnicas tradicionales. Podemos conectar su empresa con proveedores de piezas únicas que reflejan la rica herencia cultural de México.
     </p>
     <div class="mt-4">
       <i class="ml-2 fas fa-tshirt text-sky-950"></i>
@@ -545,7 +545,7 @@
       Sector Servicios Especializados
     </h3>
     <p class="text-sm text-gray-600">
-      Nos especializamos en conectar tu empresa con proveedores mexicanos de ingeniería, tecnología y soluciones logísticas, mejorando la eficiencia operativa a través de consultoría técnica, desarrollo tecnológico y optimización de procesos.
+      Nos especializamos en conectar su empresa con proveedores mexicanos de ingeniería, tecnología y soluciones logísticas, mejorando la eficiencia operativa a través de consultoría técnica, desarrollo tecnológico y optimización de procesos.
     </p>
     <div class="mt-4">
       <i class="ml-2 fas fa-cogs text-sky-950"></i>
@@ -561,7 +561,7 @@
       Sector Industrial
     </h3>
     <p class="text-sm text-gray-600">
-      Conectamos a tu empresa con proveedores mexicanos de maquinaria industrial y componentes de alta precisión, garantizando calidad y durabilidad en equipos y productos de manufactura.
+      Conectamos a su empresa con proveedores mexicanos de maquinaria industrial y componentes de alta precisión, garantizando calidad y durabilidad en equipos y productos de manufactura.
     </p>
     <div class="mt-4">
       <i class="ml-2 fas fa-industry text-sky-950"></i>
@@ -577,7 +577,7 @@
       Sector de Bebidas y Licores
     </h3>
     <p class="text-sm text-gray-600">
-      Tequila, mezcal y otras bebidas tradicionales de México. Nos encargamos de conectar a tu empresa con los mejores productores para que puedas disfrutar de bebidas de calidad internacional, elaboradas con métodos tradicionales.
+      Tequila, mezcal y otras bebidas tradicionales de México. Nos encargamos de conectar a su empresa con los mejores productores para que puedas disfrutar de bebidas de calidad internacional, elaboradas con métodos tradicionales.
     </p>
     <div class="mt-4">
       <i class="ml-2 fas fa-wine-bottle text-sky-950"></i>
@@ -609,7 +609,7 @@
       Sector Consultoría Empresarial
     </h3>
     <p class="text-sm text-gray-600">
-      Ayudamos a tu empresa a alcanzar sus objetivos conectándola con consultores y asesores mexicanos expertos en diversas áreas clave como gestión empresarial, finanzas y desarrollo organizacional.
+      Ayudamos a su empresa a alcanzar sus objetivos conectándola con consultores y asesores mexicanos expertos en diversas áreas clave como gestión empresarial, finanzas y desarrollo organizacional.
     </p>
     <div class="mt-4">
       <i class="ml-2 fas fa-briefcase text-sky-950"></i>
@@ -640,7 +640,7 @@
         Sector de Tecnología e Innovación Mexicana
       </h3>
       <p class="text-sm text-gray-600">
-  Conectamos tu empresa con los avances más recientes en tecnología e innovación provenientes de México. Facilita el acceso a soluciones tecnológicas avanzadas, como el desarrollo de software a medida y dispositivos electrónicos de última generación, impulsados por expertos mexicanos en el campo. Aprovecha las oportunidades que la tecnología mexicana ofrece para optimizar tus operaciones y mejorar la competitividad global de tu negocio.
+  Conectamos su empresa con los avances más recientes en tecnología e innovación provenientes de México. Facilita el acceso a soluciones tecnológicas avanzadas, como el desarrollo de software a medida y dispositivos electrónicos de última generación, impulsados por expertos mexicanos en el campo. Aprovecha las oportunidades que la tecnología mexicana ofrece para optimizar sus procesos, mejorar su operaciones y mejorar la competitividad global de su negocio.
 </p>
 
       <div class="mt-4">
@@ -693,14 +693,14 @@
 <section data-aos="zoom-in-up" id="cta-final" class="py-2 bg-white">
   <div class="container py-5 mx-auto text-center">
     <h2 class="mb-6 text-4xl font-extrabold text-sky-950">
-      Potencia tus operaciones internacionales.
+      Potencia sus operaciones internacionales.
     </h2>
     <p class="max-w-3xl mx-auto mb-12 text-lg">
-      Garantiza el éxito de tus importaciones con el respaldo de expertos en calidad y cumplimiento normativo.
+      Garantiza el éxito de sus importaciones con el respaldo de expertos en calidad y cumplimiento normativo.
     </p>
-    <a class="px-6 py-3 font-medium text-white transition bg-green-600 rounded-lg hover:bg-green-800" href="#contacto">
-      Contáctanos Ahora
-    </a>
+
+    <!-- router link -->
+     <RouterLink to="/contact" class="px-6 py-3 ml-4 font-medium text-white transition bg-blue-600 rounded-lg hover:bg-blue-800">Contáctenos Ahora</RouterLink>
   </div>
 </section>
 
