@@ -26,8 +26,29 @@
   </div>
 </section>
 
+<section class="flex flex-col items-center justify-between gap-10 p-6 md:flex-row">
+  <!-- Primera imagen con texto a la derecha -->
+  <div data-aos="fade-up" class="flex items-center w-full gap-4 md:w-1/2">
+    <img src="https://storage.googleapis.com/a1aa/image/apWnceM4z0ykTKzLCF8IWlewb5qeF4aXSVGLgSYWhN5JOAsnA.jpg" alt="hombres dandose la mano sobre importaciones" class="w-full rounded-lg shadow-md md:w-1/2">
+    <div class="text-black md:w-1/2">
+      <h2 class="mb-2 text-xl font-semibold text-slate-800">Importación desde México sin complicaciones</h2>
+      <p class="text-sm text-black">Le ayudamos a gestionar sus importaciones desde México de manera eficiente, brindándole el apoyo necesario en cada paso del proceso.</p>
+    </div>
+  </div>
+
+  <!-- Segunda imagen con texto a la izquierda -->
+  <div data-aos="fade-up" class="flex items-center w-full gap-4 md:w-1/2">
+    <div class="text-black md:w-1/2">
+      <h2 class="mb-2 text-xl font-semibold text-slate-800">Documentación constante y transparente</h2>
+      <p class="text-sm text-black">Le proporcionamos la documentación necesaria en todo momento, asegurando transparencia y eficiencia en cada transacción.</p>
+    </div>
+    <img src="https://storage.googleapis.com/a1aa/image/qemE0MvaS2SaE6czLfJuOOKEPvbFFnnLg0QbGYAm7BNHJA2TA.jpg" alt="hombre entregando papeles" class="w-full rounded-lg shadow-md md:w-1/2">
+  </div>
+</section>
+
+
 <section class="py-12 font-roboto">
- 
+
   <div class="container px-4 mx-auto">
         <h2 class="mb-6 text-3xl font-bold text-left text-sky-950 font-parkinsans">Somos su mejor opción para importar productos y servicios desde México</h2>
         <p class="mb-4 text-lg leading-relaxed text-left text-slate-800">
@@ -521,7 +542,7 @@
       <i class="ml-2 fas fa-seedling text-sky-950"></i>
     </div>
   </div>
-  
+
   <!-- Textiles y Artesanías -->
   <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Telas artesanales coloridas y detalladas" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/YL0peffIgfpKfi4e07FlNTSfO7C4NpkKntYRFTqIzULCT6e0TA.jpg" width="600"/>
@@ -537,7 +558,7 @@
       <i class="ml-2 fas fa-hand-sparkles text-sky-950"></i>
     </div>
   </div>
-  
+
   <!-- Servicios Especializados -->
   <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Ingeniero trabajando en un proyecto industrial" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/nLFrJy4U6SaxMdoyarVA7yPp94c6EFkCdFoZDmRVq1eT6e0TA.jpg" width="600"/>
@@ -553,7 +574,7 @@
       <i class="ml-2 fas fa-truck text-sky-950"></i>
     </div>
   </div>
-  
+
   <!-- Industria -->
   <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Maquinaria industrial moderna en una fábrica" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/UFz0rfCGGN2rSCF6HNcMFOxZfxCOF4rULd5OofHmEwDnp7pnA.jpg" width="600"/>
@@ -569,7 +590,7 @@
       <i class="ml-2 fas fa-cog text-sky-950"></i>
     </div>
   </div>
-  
+
   <!-- Bebidas -->
   <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Botellas de tequila y mezcal en una mesa de madera" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/kaMyf6YvIOSYXysq1PDvGgzGoP1iPjPOUT8NKGpAzUgX6e0TA.jpg" width="600"/>
@@ -585,7 +606,7 @@
       <i class="ml-2 fas fa-cocktail text-sky-950"></i>
     </div>
   </div>
-  
+
   <!-- Cosméticos -->
   <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Productos de belleza naturales en un entorno de spa" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/Dvs4VbeVLs2TECcrmpVlQOLv48cIDqedMwMug6rkiOfcp7pnA.jpg" width="600"/>
@@ -601,7 +622,7 @@
       <i class="ml-2 fas fa-seedling text-sky-950"></i>
     </div>
   </div>
-  
+
   <!-- Consultoría -->
   <div data-aos="zoom-in-up" class="p-6 rounded-lg shadow-lg bg-gray-50">
     <img alt="Consultores empresariales en una reunión de trabajo" class="mb-4 rounded" height="400" src="https://storage.googleapis.com/a1aa/image/QdVanX2swR7jO1Ol9tZtM5KoMwSBHF2RmMVFMfq2tZsW6e0TA.jpg" width="600"/>
