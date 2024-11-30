@@ -1,17 +1,18 @@
 <template>
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
-  <section class="w-full h-full bg-white shadow">
+      <section class="relative w-full h-full bg-white shadow">
+    <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg text-sky-950 left-[5%] animate-fade-up" :key="currentDomain">{{ currentDomain }}</h2>
     <img src="../assets/shield.svg" class="absolute hidden w-10 md:block top-4 left-4" alt="">
+
     <!-- Navigation links -->
-    <article class="flex items-center justify-center w-full h-full px-4 py-3 space-x-2 bg-white md:py-5 sm:space-x-3 md:space-x-6">
+    <article class="flex items-center justify-center w-full h-full px-4 py-3 space-x-2 bg-white rela md:py-5 sm:space-x-3 md:space-x-6">
   <!-- Título con fondo rojo -->
-  <!-- <h2 class="flex items-center justify-center h-full px-4 text-2xl font-bold">comercioamerica.com</h2> -->
 
   <div class="z-50 flex items-center h-full space-x-0 text-xs font-medium select-none md:space-x-2 sm:text-sm md:text-base">
     <!-- Loop through navigation items -->
     <div v-for="(item, index) in navItems" :key="index" class="relative w-full h-full group">
-      
+
       <!-- Contenedor del enlace y submenú -->
       <div class="relative w-full h-full group">
         <!-- Reemplazado RouterLink por un <h3> -->
@@ -85,7 +86,7 @@
   <div class="container mx-auto">
     <!-- Título -->
     <h2 class="mb-8 text-3xl font-bold text-center">Contacto</h2>
-    
+
     <!-- Sección de información -->
     <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
       <!-- Información de contacto -->
@@ -170,7 +171,7 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
@@ -201,22 +202,22 @@ const navItems = [
     subLinks: [
       { title: 'Supervisión y Verificación de Proveedores', route: '/services/supervision', name:'internation' }, // Ruta esperada: '/servicios/supervision-verificacion'
       // { title: 'Auditorías de Calidad y Cumplimiento', route: '/supervision/services' },
-      // { title: 'Documentación y Reportes Transparentes', route: '/supervision/services' }, 
+      // { title: 'Documentación y Reportes Transparentes', route: '/supervision/services' },
     ],
   },
   {
     title: 'Clientes',
     name: 'spaThree',
-    route: '', 
+    route: '',
     subLinks: [
       { title: 'Comentarios de nuestros clientes', route: '/commments/users', name:'comments' }, // Ruta esperada: '/beneficios/confianza-seguridad'
-  
+
     ],
   },
   {
     title: 'Información',
     name: 'informacion',
-    route: '', 
+    route: '',
     subLinks: [
       { title: 'Historia de la Empresa', route: '/history/us', name:'history' }, // Ruta esperada: '/informacion/historia'
       { title: 'Contacto', route: '/contact', name:'contact' }, // Ruta esperada: '/informacion/contacto'
@@ -224,10 +225,35 @@ const navItems = [
   }
 ]
 
+
+// Estado reactivo
+let currentDomain = ref('negocioamerica.com');
+let intervalId: number | null = null; // Variable para guardar el ID del temporizador
+
+// Función para alternar dominios
+const toggleDomain = () => {
+  if (intervalId) return; // Prevenir múltiples `setInterval`
+
+  const domains = [
+    'negocioamerica.com',
+    'comercioamerica.com',
+    'controlcalidad.net',
+    'empresasamerica.com',
+    'exportacionesamerica.com',
+    'exportsamerica.net',
+    'qualitycontrolexports.com',
+    'disposable-compostable-edible.com'
+  ];
+
+  intervalId = window.setInterval(() => {
+    currentDomain.value = domains[Math.floor(Math.random() * domains.length)];
+  }, 3000);
+};
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 onMounted(() => {
   AOS.init();
+  toggleDomain();
 })
 </script>
 
