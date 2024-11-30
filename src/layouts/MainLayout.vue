@@ -2,7 +2,7 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
       <section class="relative w-full h-full bg-white shadow">
-    <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg text-sky-950 left-[5%] animate-fade-up" :key="currentDomain">{{ currentDomain }}</h2>
+    <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg text-sky-950 left-[5%] animate-fade-up" translate="no" :key="currentDomain">{{ currentDomain }}</h2>
     <img src="../assets/shield.svg" class="absolute hidden w-10 md:block top-4 left-4" alt="">
 
     <!-- Navigation links -->
@@ -52,7 +52,7 @@
   <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="text-xs text-white md:hidden md:items-center hover:text-cyan-600" target="_blank">
     Dirección
   </a>
-  <a href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="hidden ml-1 text-xs text-white md:flex md:items-center hover:text-cyan-600" target="_blank">
+  <a translate="no" href="https://www.google.com/maps?q=Gutenberg+%23128+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México" class="hidden ml-1 text-xs text-white md:flex md:items-center hover:text-cyan-600" target="_blank">
     Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
   </a>
   <span class="flex items-center">
@@ -65,7 +65,7 @@
   </span>
   <span class="flex items-center">
     <i class="fas fa-envelope text-sky-200"></i>
-    <a href="mailto:informes@prasadam.mx" class="ml-1 text-white hover:text-cyan-600">informes@prasadam.mx</a>
+    <a href="mailto:informes@prasadam.mx" translate="no" class="ml-1 text-white hover:text-cyan-600">informes@prasadam.mx</a>
   </span>
   <span class="flex items-center">
     <i class="text-green-500 fab fa-whatsapp"></i>
@@ -100,6 +100,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="text-blue-600 hover:underline"
+              translate="no"
             >
               Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
             </a>
@@ -123,6 +124,7 @@
             <a
               href="mailto:informes@prasadam.mx"
               class="text-gray-700 hover:text-red-500"
+              translate="no"
             >
               informes@prasadam.mx
             </a>
