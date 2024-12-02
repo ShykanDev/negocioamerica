@@ -2,8 +2,17 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
       <section class="relative w-full h-full bg-white shadow">
-    <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg text-sky-950 left-[5%] animate-fade-up" translate="no" :key="currentDomain">{{ currentDomain }}</h2>
+        <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%] animate-fade-up" translate="no" :key="currentDomain">
+  <span v-for="(part, index) in currentDomain" :key="index" :style="{ color: getRandomColor() }">
+    {{ part }}
+  </span>
+</h2>
+
+
     <img src="../assets/shield.svg" class="absolute hidden w-10 md:block top-4 left-4" alt="">
+      <img src="https://i.ibb.co/pbWyKgd/Flag-of-Mexico-svg.webp" class="absolute hidden w-10 animate-fade-up top-4 md:block left-16" alt="">
+
+    <img src="https://i.ibb.co/f9TD2rX/Hecho-En-Mexico-logo-svg.png" class="absolute hidden w-10 animate-fade-up left-28 top-2 md:block" alt="">
 
     <!-- Navigation links -->
     <article class="flex items-center justify-center w-full h-full px-4 py-3 space-x-2 bg-white rela md:py-5 sm:space-x-3 md:space-x-6">
@@ -44,7 +53,7 @@
 
   </section>
   <small  class="relative block py-5 text-center text-white bg-slate-800 font-parkinsans">
-    <img src="../assets/shieldWhite.svg" class="absolute left-0 w-6 select-none bottom-2 md:hidden" alt="">
+    <img src="https://i.ibb.co/pbWyKgd/Flag-of-Mexico-svg.webps" class="absolute left-0 w-6 bg-red-700 select-none bottom-2 md:hidden" alt="" title="logo mex">
   <div class="flex flex-wrap justify-center space-x-4 text-xs select-none sm:text-sm">
   <span class="flex items-center">
     <i class="fas fa-map-marker-alt text-sky-200"></i>
@@ -227,25 +236,48 @@ const navItems = [
   }
 ]
 
+let previousColor = null;
+
+
+const getRandomColor = () => {
+  const colorVariants = [
+    '#1E3A8A', // Azul real
+    '#FF5733', // Naranja brillante
+    '#8B5CF6', // Morado fuerte
+    '#1D4ED8', // Azul intenso
+    '#D83F87', // Rosa fuerte (rose)
+  ];
+
+  let randomColor;
+  do {
+    // Seleccionar un color aleatorio
+    randomColor = colorVariants[Math.floor(Math.random() * colorVariants.length)];
+  } while (randomColor === previousColor); // Evitar repetir el último color
+
+  previousColor = randomColor;
+  return randomColor;
+};
+
+
+// Array de dominios divididos en partes
+const domains = [
+  ['negocio', 'america', '.com'],
+  ['comercio', 'america', '.com'],
+  ['control', 'calidad', '.net'],
+  ['empresas', 'america', '.com'],
+  ['exportaciones', 'america', '.com'],
+  ['exports', 'america', '.net'],
+  ['quality', 'control', 'exports', '.com'],
+  ['disposable-', 'compostable-', 'edible', '.com']
+];
 
 // Estado reactivo
-let currentDomain = ref('negocioamerica.com');
+const currentDomain = ref(['negocio', 'america', '.com']); // Usamos un array como el valor inicial
 let intervalId: number | null = null; // Variable para guardar el ID del temporizador
 
 // Función para alternar dominios
 const toggleDomain = () => {
   if (intervalId) return; // Prevenir múltiples `setInterval`
-
-  const domains = [
-    'negocioamerica.com',
-    'comercioamerica.com',
-    'controlcalidad.net',
-    'empresasamerica.com',
-    'exportacionesamerica.com',
-    'exportsamerica.net',
-    'qualitycontrolexports.com',
-    'disposable-compostable-edible.com'
-  ];
 
   intervalId = window.setInterval(() => {
     currentDomain.value = domains[Math.floor(Math.random() * domains.length)];
