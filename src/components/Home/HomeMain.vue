@@ -28,7 +28,7 @@
 
 <section class="flex flex-col items-center justify-between gap-10 p-6 md:flex-row">
   <!-- Primera imagen con texto a la derecha -->
-  <div data-aos="fade-up" class="flex items-center w-full gap-4 md:w-1/2">
+  <div data-aos="fade-up" class="flex flex-wrap items-center w-full gap-4 md:w-1/2 font-poppins md:flex-nowrap">
     <img src="https://storage.googleapis.com/a1aa/image/apWnceM4z0ykTKzLCF8IWlewb5qeF4aXSVGLgSYWhN5JOAsnA.jpg" alt="hombres dandose la mano sobre importaciones" class="w-full rounded-lg shadow-md md:w-1/2">
     <div class="text-black md:w-1/2">
       <h2 class="mb-2 text-xl font-semibold text-slate-800">Importación desde México sin complicaciones</h2>
@@ -37,7 +37,7 @@
   </div>
 
   <!-- Segunda imagen con texto a la izquierda -->
-  <div data-aos="fade-up" class="flex items-center w-full gap-4 md:w-1/2">
+  <div data-aos="fade-up" class="flex flex-wrap items-center w-full gap-4 md:w-1/2 font-poppins md:flex-nowrap">
     <div class="text-black md:w-1/2">
       <h2 class="mb-2 text-xl font-semibold text-slate-800">Documentación constante y transparente</h2>
       <p class="text-sm text-black">Le proporcionamos la documentación necesaria en todo momento, asegurando transparencia y eficiencia en cada transacción.</p>

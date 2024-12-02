@@ -14,7 +14,7 @@
       Ubicación
      </h2>
      <p class="mt-2 text-gray-600 animate-fade">
-      <i class="text-green-500 fas fa-map-marker-alt">
+      <i class="text-sky-700 fas fa-map-marker-alt">
       </i>
       Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
      </p>
@@ -26,9 +26,9 @@
        <img alt="Mujer en un centro de llamadas con auriculares" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/0ffatb5b9Gh8TEz54xTOtl8VKU0fC7CMtpZLDnISI44ry0qnA.jpg" width="50"/>
        <div class="ml-4">
         <p class="text-gray-600">
-         <i class="text-green-500 fas fa-phone-alt">
+         <i class="text-sky-700 fas fa-phone-alt">
          </i>
-         <a href="tel:+525563950178" class="text-gray-600 hover:text-green-500">+52 55 6395 0178</a>
+         <a href="tel:+525563950178" class="text-gray-600 hover:text-sky-700">+52 55 6395 0178</a>
         </p>
         <p class="text-gray-600">
          Llámanos si necesitas ayuda
@@ -39,9 +39,9 @@
        <img alt="Hombre en un centro de llamadas con auriculares" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/377IWwfDgw2uekJaue2PANjt2jCTU58fjV9i9fFE6f1l7lW9E.jpg" width="50"/>
        <div class="ml-4">
         <p class="text-gray-600">
-         <i class="text-green-500 fas fa-phone-alt">
+         <i class="text-sky-700 fas fa-phone-alt">
          </i>
-         <a href="tel:+525563950179" class="text-gray-600 hover:text-green-500">+52 55 6395 0179</a>
+         <a href="tel:+525563950179" class="text-gray-600 hover:text-sky-700">+52 55 6395 0179</a>
         </p>
         <p class="text-gray-600">
          Llámanos si necesitas ayuda
@@ -53,14 +53,14 @@
       Correo Electrónico
      </h2>
      <p class="mt-2 text-gray-600">
-        <i class="mr-2 text-2xl text-green-500 fas fa-envelope">
+        <i class="mr-2 text-2xl text-sky-700 fas fa-envelope">
         </i>
-      <a href="mailto:informes@prasadam.mx" class="text-gray-600 hover:text-green-500">informes@prasadam.mx</a>
+      <a href="mailto:informes@prasadam.mx" class="text-gray-600 hover:text-sky-700">informes@prasadam.mx</a>
      </p>
      <h2 class="mt-6 text-2xl font-semibold text-gray-800">
       WhatsApp
      </h2>
-     <a class="inline-block px-4 py-2 mt-2 font-semibold text-white bg-green-500 rounded-lg shadow-md hover:bg-green-600" href="https://wa.me/525562516687">
+     <a class="inline-block px-4 py-2 mt-2 font-semibold text-white bg-green-500 rounded-lg shadow-7d hover:bg-green-700" href="https://wa.me/525562516687">
       <i class="fab fa-whatsapp">
       </i>
       Iniciar Chat en WhatsApp
