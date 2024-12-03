@@ -2,8 +2,8 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
       <section class="relative w-full h-full bg-white shadow">
-        <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%] animate-fade-up" translate="no" :key="currentDomain">
-  <span v-for="(part, index) in currentDomain" :key="index" :style="{ color: getRandomColor() }">
+        <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%] animate-fade-up" :key="currentDomain" translate="no" >
+  <span v-for="part in currentDomain" :key="part" :style="{ color: getRandomColor() }">
     {{ part }}
   </span>
 </h2>
