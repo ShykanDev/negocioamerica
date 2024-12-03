@@ -236,7 +236,7 @@ const navItems = [
   }
 ]
 
-let previousColor = null;
+let previousColor = ref();
 
 
 const getRandomColor = () => {
@@ -252,9 +252,9 @@ const getRandomColor = () => {
   do {
     // Seleccionar un color aleatorio
     randomColor = colorVariants[Math.floor(Math.random() * colorVariants.length)];
-  } while (randomColor === previousColor); // Evitar repetir el último color
+  } while (randomColor === previousColor.value)
 
-  previousColor = randomColor;
+  previousColor.value = randomColor;
   return randomColor;
 };
 
