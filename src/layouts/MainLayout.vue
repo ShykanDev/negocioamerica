@@ -2,24 +2,12 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
       <section class="relative w-full h-full bg-white shadow">
-        <h2
-  class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%] animate-fade-up"
-  translate="no"
-  :key="currentDomain.join('-')"
-  data-aos="fade-up"
->
-  <div class="flex">
-    <span v-for="(part, index) in currentDomain" :key="index" :style="{ color: getRandomColor() }">
-      {{ part }}
-    </span>
-  </div>
-</h2>
+        <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%]" translate="no" v-html="currentDomain" ></h2>
 
 
 
     <img src="../assets/shield.svg" class="absolute hidden w-10 md:block top-4 left-4" alt="">
-      <img src="https://i.ibb.co/pbWyKgd/Flag-of-Mexico-svg.webp" class="absolute hidden w-10 animate-fade-up top-4 md:block left-16" alt="">
-
+    <img src="https://i.ibb.co/pbWyKgd/Flag-of-Mexico-svg.webp" class="absolute hidden w-10 animate-fade-up top-4 md:block left-16" alt="">
     <img src="https://i.ibb.co/f9TD2rX/Hecho-En-Mexico-logo-svg.png" class="absolute hidden w-10 animate-fade-up left-28 top-2 md:block" alt="">
 
     <!-- Navigation links -->
@@ -244,58 +232,37 @@ const navItems = [
   }
 ]
 
-const previousColor = ref();
-
-
-const getRandomColor = () => {
-  const colorVariants = [
-    '#1E3A8A', // Azul real
-    '#FF5733', // Naranja brillante
-    '#8B5CF6', // Morado fuerte
-    '#1D4ED8', // Azul intenso
-    '#D83F87', // Rosa fuerte (rose)
-  ];
-
-  let randomColor;
-  do {
-    // Seleccionar un color aleatorio
-    randomColor = colorVariants[Math.floor(Math.random() * colorVariants.length)];
-  } while (randomColor === previousColor.value)
-
-  previousColor.value = randomColor;
-  return randomColor;
-};
-
-
-// Array de dominios divididos en partes
 const domains = [
-  ['negocio', 'america', '.com'],
-  ['comercio', 'america', '.com'],
-  ['control', 'calidad', '.net'],
-  ['empresas', 'america', '.com'],
-  ['exportaciones', 'america', '.com'],
-  ['exports', 'america', '.net'],
-  ['quality', 'control', 'exports', '.com'],
-  ['disposable-', 'compostable-', 'edible', '.com']
+  '<h2 class="animate-fade"><span class="text-sky-700">negocio</span><span class="text-red-800">america</span><span class="text-sky-950">.com</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">comercio</span><span class="text-red-800">america</span><span class="text-sky-950">.com</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">control</span><span class="text-red-800">calidad</span><span class="text-sky-950">.net</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">empresas</span><span class="text-red-800">america</span><span class="text-sky-950">.com</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">exportaciones</span><span class="text-red-800">america</span><span class="text-sky-950">.com</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">exports</span><span class="text-red-800">america</span><span class="text-sky-950">.net</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">quality</span><span class="text-red-800">control</span><span class="text-sky-950">exports</span><span class="text-sky-950">.com</span></h2>',
+  '<h2 class="animate-fade"><span class="text-sky-700">disposable-</span><span class="text-red-800">compostable-</span><span class="text-sky-950">edible</span><span class="text-sky-950">.com</span></h2>'
 ];
 
 // Estado reactivo
-const currentDomain = ref(['negocio', 'america', '.com']); // Usamos un array como el valor inicial
+const currentDomain = ref('<h2><span class="text-sky-800">negocio</span><span class="text-red-800">america</span><span class="text-sky-950">.com</span></h2>'); // Usamos un array como el valor inicial
 let intervalId: number | null = null; // Variable para guardar el ID del temporizador
 
-// Función para alternar dominios
-const toggleDomain = () => {
-  if (intervalId) return; // Prevenir múltiples `setInterval`
 
-  intervalId = window.setInterval(() => {
+const toggleDomains = ()=>{
+  if(intervalId){
+    clearInterval(intervalId);
+  }
+  currentDomain.value = domains[Math.floor(Math.random() * domains.length)];
+  intervalId = setInterval(() => {
     currentDomain.value = domains[Math.floor(Math.random() * domains.length)];
-  }, 3300);
-};
+  }, 3000);
+}
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 onMounted(() => {
   AOS.init();
-  toggleDomain();
+  toggleDomains();
 })
 </script>
 
