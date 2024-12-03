@@ -2,11 +2,19 @@
   <div class="overflow-hidden">
     <header class="fixed top-0 z-50 w-full">
       <section class="relative w-full h-full bg-white shadow">
-        <h2 class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%] animate-fade-up" :key="currentDomain" translate="no" >
-  <span v-for="part in currentDomain" :key="part" :style="{ color: getRandomColor() }">
-    {{ part }}
-  </span>
+        <h2
+  class="absolute bottom-0 md:font-semibold text-xs md:text-lg left-[5%] animate-fade-up"
+  translate="no"
+  :key="currentDomain.join('-')"
+  data-aos="fade-up"
+>
+  <div class="flex">
+    <span v-for="(part, index) in currentDomain" :key="index" :style="{ color: getRandomColor() }">
+      {{ part }}
+    </span>
+  </div>
 </h2>
+
 
 
     <img src="../assets/shield.svg" class="absolute hidden w-10 md:block top-4 left-4" alt="">
@@ -281,7 +289,7 @@ const toggleDomain = () => {
 
   intervalId = window.setInterval(() => {
     currentDomain.value = domains[Math.floor(Math.random() * domains.length)];
-  }, 3000);
+  }, 3300);
 };
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
