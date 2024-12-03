@@ -35,32 +35,32 @@ const router = createRouter({
       component: () => import('../views/Home/MissionHomeView.vue'),
     },
     {
-      path: '/servicios-supervision',
+      path: '/supervision',
       name: 'supervision',
       component: () => import('../views/Home/SupervisionProccessView.vue'),
     },
     {
-      path: '/equipos-supervision',
+      path: '/teams',
       name: 'supervision-teams',
       component: () => import('../views/Us/SupervisionView.vue'),
     },
     {
-      path: '/international/expansion',
+      path: '/international',
       name: 'international-expansion',
       component: () => import('../views/Us/ExpansionView.vue'),
     },
     {
-      path: '/services/supervision',
+      path: '/services',
       name: 'internation',
       component: () => import('../views/services/ServicesView.vue'),
     },
     {
-      path:'/commments/users',
+      path:'/comments',
       name:'comments',
       component: () => import('../views/CommentsView.vue'),
     },
     {
-      path: '/history/us',
+      path: '/history',
       name: 'history',
       component: () => import('../views/History/HistoryOne.vue'),
     },
