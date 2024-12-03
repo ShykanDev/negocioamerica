@@ -236,7 +236,7 @@ const navItems = [
   }
 ]
 
-let previousColor = ref();
+const previousColor = ref();
 
 
 const getRandomColor = () => {
